@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7335CBB-57DE-49CA-8624-414EC90A34E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HeThongTiemChungVaccine_NATHADA</RootNamespace>
+    <AssemblyName>HeThongTiemChungVaccine_NATHADA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\PC\Desktop\New folder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6ED06FA9B2C2E3783C3D036AF2CCA74247894694</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HeThongTiemChungVaccine_NATHADA_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common.resources, Version=11.0.0.0, Culture=de, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\zh-CHS\Microsoft.ReportViewer.Common.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\ConnSQL.cs" />
+    <Compile Include="Control\Control_Combo.cs" />
+    <Compile Include="Control\Control_Dangkytiem.cs" />
+    <Compile Include="Control\Control_HoaDon.cs" />
+    <Compile Include="Control\Control_Khachhang.cs" />
+    <Compile Include="Control\Control_Kho.cs" />
+    <Compile Include="Control\Control_LoaiVC.cs" />
+    <Compile Include="Control\Control_NhaCungCap.cs" />
+    <Compile Include="Control\Control_NhanVien.cs" />
+    <Compile Include="Control\Control_PhieuNhap.cs" />
+    <Compile Include="Control\Control_TaiKhoan.cs" />
+    <Compile Include="Control\Control_ThongkeLichSuMuaHang.cs" />
+    <Compile Include="Control\Control_ThongkePhieuNhap.cs" />
+    <Compile Include="Control\Control_thongke_lichsutiem.cs" />
+    <Compile Include="Control\Control_thongke_nguoidangky.cs" />
+    <Compile Include="Control\Control_TKNV.cs" />
+    <Compile Include="Control\Control_TrangthaitiemVaccine.cs" />
+    <Compile Include="Control\Control_Vaccine.cs" />
+    <Compile Include="Control\Control_Voucher.cs" />
+    <Compile Include="Model\Model_ChitietCombo.cs" />
+    <Compile Include="Model\Model_ChiTietPhieuNhap.cs" />
+    <Compile Include="Model\Model_Combo.cs" />
+    <Compile Include="Model\Model_Dangkytiem.cs" />
+    <Compile Include="Model\Model_KhachHang.cs" />
+    <Compile Include="Model\Model_NhaCungCap.cs" />
+    <Compile Include="Model\Model_NhanVien.cs" />
+    <Compile Include="Model\Model_PhieuNhap.cs" />
+    <Compile Include="Model\Model_TKNV.cs" />
+    <Compile Include="Model\Model_Vaccine.cs" />
+    <Compile Include="Model\Model_Voucher.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="View\ComboVaccine_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ComboVaccine_DanhMuc.Designer.cs">
+      <DependentUpon>ComboVaccine_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormThongTinChiTietNguoiTiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormThongTinChiTietNguoiTiem.Designer.cs">
+      <DependentUpon>FormThongTinChiTietNguoiTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmChiTietComBo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmChiTietComBo.Designer.cs">
+      <DependentUpon>frmChiTietComBo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmThongKe.Designer.cs">
+      <DependentUpon>FrmThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_AddVaccine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_AddVaccine.Designer.cs">
+      <DependentUpon>frm_AddVaccine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ChiTietDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ChiTietDangKy.Designer.cs">
+      <DependentUpon>frm_ChiTietDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ChiTietTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ChiTietTaiKhoan.Designer.cs">
+      <DependentUpon>frm_ChiTietTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon.Designer.cs">
+      <DependentUpon>frm_HienThiHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon_OFF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon_OFF.Designer.cs">
+      <DependentUpon>frm_HienThiHoaDon_OFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon_XemLai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_HienThiHoaDon_XemLai.Designer.cs">
+      <DependentUpon>frm_HienThiHoaDon_XemLai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_HienThiPhieuNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_HienThiPhieuNhapHang.Designer.cs">
+      <DependentUpon>frm_HienThiPhieuNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_PhieuNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_PhieuNhapHang.Designer.cs">
+      <DependentUpon>frm_PhieuNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_QL_KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_QL_KhachHang.Designer.cs">
+      <DependentUpon>frm_QL_KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_SetTrangThaiTiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_SetTrangThaiTiem.Designer.cs">
+      <DependentUpon>frm_SetTrangThaiTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_TaoHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_TaoHoaDon.Designer.cs">
+      <DependentUpon>frm_TaoHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_HoaDon.Designer.cs">
+      <DependentUpon>frm_ThongKe_HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_lichsumuahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_lichsumuahang.Designer.cs">
+      <DependentUpon>frm_ThongKe_lichsumuahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_Thongke_LichSuTiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_Thongke_LichSuTiem.Designer.cs">
+      <DependentUpon>frm_Thongke_LichSuTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_nguoidangky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_nguoidangky.Designer.cs">
+      <DependentUpon>frm_ThongKe_nguoidangky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_PhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_ThongKe_PhieuNhap.Designer.cs">
+      <DependentUpon>frm_ThongKe_PhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frm_Vaccine_NCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frm_Vaccine_NCC.Designer.cs">
+      <DependentUpon>frm_Vaccine_NCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HoaDon_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HoaDon_DanhMuc.Designer.cs">
+      <DependentUpon>HoaDon_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Kho_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Kho_DanhMuc.Designer.cs">
+      <DependentUpon>Kho_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoaiVaccine_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LoaiVaccine_DanhMuc.Designer.cs">
+      <DependentUpon>LoaiVaccine_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Model_LoaiVaccine.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\DangNhapHeThongTiemChung_NATHADA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DangNhapHeThongTiemChung_NATHADA.Designer.cs">
+      <DependentUpon>DangNhapHeThongTiemChung_NATHADA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DangNhapThatBai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DangNhapThatBai.Designer.cs">
+      <DependentUpon>DangNhapThatBai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Giaodientrangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Giaodientrangchu.Designer.cs">
+      <DependentUpon>Giaodientrangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NguoDangKyTiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NguoDangKyTiem.Designer.cs">
+      <DependentUpon>NguoDangKyTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NhaCungCap_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NhaCungCap_DanhMuc.Designer.cs">
+      <DependentUpon>NhaCungCap_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NhanVien_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NhanVien_DanhMuc.Designer.cs">
+      <DependentUpon>NhanVien_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report_HoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_HoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Report_HoaDon_InLai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_HoaDon_InLai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Report_HoaDon_off.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_HoaDon_off.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Report_PhieuNhap.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_PhieuNhap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\TaiKhoanNhanVien_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TaiKhoanNhanVien_DanhMuc.Designer.cs">
+      <DependentUpon>TaiKhoanNhanVien_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Vaccine_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Vaccine_DanhMuc.Designer.cs">
+      <DependentUpon>Vaccine_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Voucher_DanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Voucher_DanhMuc.Designer.cs">
+      <DependentUpon>Voucher_DanhMuc.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\ComboVaccine_DanhMuc.resx">
+      <DependentUpon>ComboVaccine_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormThongTinChiTietNguoiTiem.resx">
+      <DependentUpon>FormThongTinChiTietNguoiTiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmChiTietComBo.resx">
+      <DependentUpon>frmChiTietComBo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmThongKe.resx">
+      <DependentUpon>FrmThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_AddVaccine.resx">
+      <DependentUpon>frm_AddVaccine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ChiTietDangKy.resx">
+      <DependentUpon>frm_ChiTietDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ChiTietTaiKhoan.resx">
+      <DependentUpon>frm_ChiTietTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_HienThiHoaDon.resx">
+      <DependentUpon>frm_HienThiHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_HienThiHoaDon_OFF.resx">
+      <DependentUpon>frm_HienThiHoaDon_OFF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_HienThiHoaDon_XemLai.resx">
+      <DependentUpon>frm_HienThiHoaDon_XemLai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_HienThiPhieuNhapHang.resx">
+      <DependentUpon>frm_HienThiPhieuNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_PhieuNhapHang.resx">
+      <DependentUpon>frm_PhieuNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_QL_KhachHang.resx">
+      <DependentUpon>frm_QL_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_SetTrangThaiTiem.resx">
+      <DependentUpon>frm_SetTrangThaiTiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_TaoHoaDon.resx">
+      <DependentUpon>frm_TaoHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ThongKe_HoaDon.resx">
+      <DependentUpon>frm_ThongKe_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ThongKe_lichsumuahang.resx">
+      <DependentUpon>frm_ThongKe_lichsumuahang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_Thongke_LichSuTiem.resx">
+      <DependentUpon>frm_Thongke_LichSuTiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ThongKe_nguoidangky.resx">
+      <DependentUpon>frm_ThongKe_nguoidangky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_ThongKe_PhieuNhap.resx">
+      <DependentUpon>frm_ThongKe_PhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frm_Vaccine_NCC.resx">
+      <DependentUpon>frm_Vaccine_NCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HoaDon_DanhMuc.resx">
+      <DependentUpon>HoaDon_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Kho_DanhMuc.resx">
+      <DependentUpon>Kho_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LoaiVaccine_DanhMuc.resx">
+      <DependentUpon>LoaiVaccine_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\DangNhapHeThongTiemChung_NATHADA.resx">
+      <DependentUpon>DangNhapHeThongTiemChung_NATHADA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DangNhapThatBai.resx">
+      <DependentUpon>DangNhapThatBai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Giaodientrangchu.resx">
+      <DependentUpon>Giaodientrangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NguoDangKyTiem.resx">
+      <DependentUpon>NguoDangKyTiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NhaCungCap_DanhMuc.resx">
+      <DependentUpon>NhaCungCap_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NhanVien_DanhMuc.resx">
+      <DependentUpon>NhanVien_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report_HoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_HoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report_HoaDon_InLai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_HoaDon_InLai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report_HoaDon_off.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_HoaDon_off.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report_PhieuNhap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_PhieuNhap.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TaiKhoanNhanVien_DanhMuc.resx">
+      <DependentUpon>TaiKhoanNhanVien_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Vaccine_DanhMuc.resx">
+      <DependentUpon>Vaccine_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Voucher_DanhMuc.resx">
+      <DependentUpon>Voucher_DanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HeThongTiemChungVaccine_NATHADA_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_quanly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_thongke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_caidat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_taikhoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_donhang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_khachhang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_vaccine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_nhacungcap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_nhanvien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_voucher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_combo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_kho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_loaivaccine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_dangkytiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_taikhoanql.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_hoadon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_nhaphang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_dãnguat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_saoluu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AnhTheNV\AnhNV1.png" />
+    <Content Include="AnhTheNV\AnhNV2.png" />
+    <Content Include="AnhTheNV\AnhNV3.png" />
+    <Content Include="AnhTheNV\AnhNV4.png" />
+    <Content Include="AnhTheNV\AnhNV5.png" />
+    <None Include="Resources\icon_trangthaitiem.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
