@@ -1,2 +1,4 @@
 # DoAn_MonHoc
-Đồ án môn học
+Các chức năng đã thực hiện 
+# Đối với Winform
+# Đối với Web
