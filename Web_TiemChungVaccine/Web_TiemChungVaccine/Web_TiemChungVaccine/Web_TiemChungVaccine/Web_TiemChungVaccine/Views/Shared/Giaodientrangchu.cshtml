@@ -1,0 +1,378 @@
+﻿@using Web_TiemChungVaccine.Models;
+<!DOCTYPE html>
+<html>
+<style>
+    .row.justify-content-end {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 35px;
+    }
+
+    .col-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .btn.mx-2 {
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+
+    .border-dark {
+        border-color: #000 !important;
+    }
+
+    .border-5 {
+        border-width: 5px !important;
+    }
+
+    .py-2 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .carousel-item {
+        margin: 0;
+        padding: 0;
+    }
+
+</style>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="~/bootstrap/css/StyleSearch.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/Footer.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/Search.js"></script>
+    <link href="~/bootstrap/css/Menucap3.css" rel="stylesheet" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    @*Them mơi*@
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="~/bootstrap/css/StyleTraCuu.css" rel="stylesheet" />
+
+
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row p-1 bg-light">
+            <div class="col-1">
+            </div>
+            <div class="col-1">
+                <a href="/Home/Index"><img class="card-img-top" width="120" height="110" src="~/Images/logobg_webvaccine.png" /></a>
+            </div>
+            <div class="col-7 ">
+                <nav class="navbar navbar-expand-sm navbar-dark  p-3">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" style="margin-top:30px;">
+                            <h6><a class="nav-link" style="color:black;margin-left:80px" href="/KhachHang/DangNhapKH"><i class="fa fa-shopping-cart" aria-hidden="true"></i><b> ĐẶT MUA VACCINE</b></a></h6>
+                        </li>
+                        <li class="nav-item" style="border: 4px dashed #000000; margin-left: 50px ">
+                            <a class="nav-link" style="color: black; margin-left: 15px;"><b>Hotline : 0373240911</b></a>
+                            <a class="nav-link" style="color:black;margin-left:15px;" ><b>Mở cửa 7h30 - 17h/T2 - CN xuyên trưa*</b></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-3">
+                <div class="row justify-content-end border-dark border-5 py-2">
+                    <div class="col-auto">
+                        <a href="/KhachHang/DangKyKH">
+                            <button type="button" class="btn btn-info mx-2"><b>Đăng Ký</b></button>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/KhachHang/DangNhapKH">
+                            <button type="button" class="btn btn-info mx-2"><b>Đăng Nhập</b></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="menu-level3">
+        <div class="container">
+            <ul class="menu-cap3 clearfix">
+                <li class="trangchu trangchu1">
+                    <a href="#"><b>TRANG CHỦ</b></a>
+                </li>
+                <li>
+                    <a href="/Home/Gioithieu"><b>GIỚI THIỆU</b></a>
+                </li>
+
+                <li>
+                    <a href="#"><b>TIÊM CHỦNG CHO TRẺ EM</b></a>
+                    <ul class="menu-sub">
+                        <li><a href="/Home/Lichtiemchungtreem">LỊCH TIÊM CHỦNG TRẺ EM</a> </li>
+                        <li><a href="/Home/Nhungdieucanbiet">NHỮNG ĐIỀU CẦN BIẾT TRƯỚC KHI TIÊM</a> </li>
+                        <li><a href="/Home/Quytrinhtiemchung">QUY TRÌNH TIÊM CHỦNG TẠI NATHADA</a> </li>
+                        <li><a href="/Home/BangGiaTiemChung">BẢNG GIÁ VACCINE</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><b>TIÊM CHỦNG CHO NGƯỜI LỚN</b></a>
+                    <ul class="menu-sub">
+                        <li><a href="/Home/Visaonguoilonnentiemchung">VÌ SAO NGƯỜI LỚN CẦN TIÊM VACCINE</a> </li>
+                        <li><a href="/Home/Lichtiemchungnguoilon">LỊCH TIÊM CHO NGƯỜI LỚN</a> </li>
+                        <li><a href="/Home/Quytrinhtiemchung">QUY TRÌNH TIÊM CHỦNG</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><b>GÓI TIÊM</b></a>
+                    <ul class="menu-sub">
+                        <li><a href="/Home/Tiemchungtheoyeucau">TIÊM CHỦNG THEO YÊU CẦU</a> </li>
+                        <li><a href="/Home/Tragop">TRẢ GÓP 0% KHI MUA VACCINE</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><b>CẨM NANG</b></a>
+                    <ul class="menu-sub">
+                        <li><a href="/Home/Nhungdieucanbiet">NHỮNG ĐIỀU CẦN BIẾT TRƯỚC KHI TIÊM</a> </li>
+                        <li><a href="/Home/Camnangtiemchung">DOWNLOAD CẨM NANG</a> </li>
+                        <li><a href="/Home/Cauhoithuonggap">CÂU HỎI THƯỜNG GẶP</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><b>TRA CỨU</b></a>
+                    <ul class="menu-sub">
+                        <li><a href="/Home/IndexNguoiDangKyTiem/">TRA CỨU THÔNG TIN ĐĂNG KÝ TIÊM</a></li>
+                        <li><a href="/Home/IndexLichSuTiem/">TRA CỨU HỒ SƠ TIÊM CHỦNG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Home/IndexCombo"><b>COMBO VACCINE</b></a>
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div style="height: 600px; width: 100%;">
+            <img src="~/Images/bgchinh3.jpg" style="width: 100%; height: 100%;">
+        </div>
+        <div class="">
+            <div class="row p-0">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top:5px;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/Images/anhbg1.jpg" class="d-block w-100" alt="First slide" style="width:100%;height:700px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/anhbg2.jpg" class="d-block w-100" alt="Second slide" style="width:100%;height:700px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/anhbg3.jpg" class="d-block w-100" alt="Third slide" style=" width: 100%; height: 700px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/anhbg4.png" class="d-block w-100" alt="Four slide" style=" width: 100%; height: 700px;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <marquee width="100%" behavior="scroll" style="height: 100px; margin-top: 5px;" bgcolor="orange">
+                <h1 style="line-height: 100px; color: #ffffff;">Siêu ưu đãi trong tháng 6 này</h1>
+            </marquee>
+        </div>
+        <div class="row ">
+            <section class="search">
+                <div class="wraper">
+                    <form action="/Home/XL_TimKiemNC" method="post">
+                        <div class="search-content-items row">
+                            <div class="col-3">
+                                <div class="search-content-item" style="width:100%; height:100%">
+                                    <table>
+                                        <tr>
+                                            <td style="padding-bottom:10px;"><i class="fa fa-usd" aria-hidden="true"></i></td>
+                                            <td style="padding-left:30px;width:700px;">
+                                                <select class="form-control" id="province" name="gia_vacine" laceholder="Giá vaccine">
+                                                    <option value="">Chọn giá vaccine</option>
+                                                    <option value="duoi1">Dưới 1,000,000VND</option>
+                                                    <option value="khoang115">1,000,000VND - 1,500,000VND</option>
+                                                    <option value="khoang116">1,500,000VND - 2,000,000VND </option>
+                                                    <option value="khoang117">2,000,000VND - 2,500,000VND </option>
+                                                    <option value="khoang118">2,500,000VND - 3,000,000VND </option>
+                                                    <option value="khoang119">3,000,000VND - 3,500,000VND </option>
+                                                    <option value="tren35">Trên 3,500,000VND </option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="search-content-item" style="width:100%; height:100%">
+                                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                    <input type="text" name="phongbenh" placeholder="Phòng bệnh">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="search-content-item" style="width:100%; height:100%">
+                                    <i class="fas fa-syringe"></i>
+                                    <input type="text" name="tenvaccine" placeholder="Tên vaccine">
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="search-content-item" style="width:auto">
+                                    <button type="submit" name="timkiem" class="btn btn-primary">
+                                        <b>Tìm kiếm</b>
+                                        <i class="fas fa-search text-white ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+        <footer class="container-fluid footer" style="color:white">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6" style="text-align: left;">
+                        <div>
+                            <p><big><b>CÔNG TY CỔ PHẦN VACXIN VIỆT NAM</b></big></p>
+                            <p>Giấy chứng nhận ĐKKD số 0107631488 do sở Kế hoạch và Đầu tư TP. Hà Nội cấp ngày 11/11/2016</p>
+                            <p>Địa chỉ: 180 Trường Chinh, P. Khương Thượng, Q. Đống Đa,Tp. Hà Nội</p>
+                            <p>Mail: nathadatiemchungvaccine2000@gmail.com</p>
+                            <p>Bản quyền © 2016 thuộc về CÔNG TY CỔ PHẦN VACXIN VIỆT NAM</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p> <a href="/Home/Chinhsachbaomat" style="color: white; text-decoration: none;"> <b>CHÍNH SÁCH BẢO MẬT</b> </a> </p>
+                            <p><b>KHẢO SÁT TIÊM CHỦNG</b></p>
+                            <p><b>CHÍNH SÁCH THANH TOÁN</b></p>
+                            <p>
+                                <img src="~/Images/logoxanh.png" style="width:120px">
+                                <img src="~/Images/logoxanhduong.png" style="width:150px">
+                                <img src="~/Images/fb_logo.png" style="width:30px">
+                                <img src="~/Images/youtube_logo.png" style="width:35px">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            // Configs
+            let liveChatBaseUrl = document.location.protocol + '//' + 'livechat.fpt.ai/v36/src'
+            let LiveChatSocketUrl = 'livechat.fpt.ai:443'
+            let FptAppCode = 'ceaab752d93489cdb873261baa16f336'
+            let FptAppName = 'Chatbot He Thong Tiem Chung NATHADA'
+            // Define custom styles
+            let CustomStyles = {
+                // header
+                headerBackground: 'linear-gradient(86.7deg, #3353a2ff 0.85%, #31b7b7ff 98.94%)',
+                headerTextColor: '#ffffffff',
+                headerLogoEnable: false,
+                headerLogoLink: 'https://chatbot-tools.fpt.ai/livechat-builder/img/Icon-fpt-ai.png',
+                headerText: 'Hỗ trợ trực tuyến',
+                // main
+                primaryColor: '#6d9ccbff',
+                secondaryColor: '#ecececff',
+                primaryTextColor: '#ffffffff',
+                secondaryTextColor: '#000000DE',
+                buttonColor: '#b4b4b4ff',
+                buttonTextColor: '#ffffffff',
+                bodyBackgroundEnable: false,
+                bodyBackgroundLink: '',
+                avatarBot: 'https://chatbot-tools.fpt.ai/livechat-builder/img/bot.png',
+                sendMessagePlaceholder: 'Nhập tin nhắn',
+                // float button
+                floatButtonLogo: 'https://chatbot-tools.fpt.ai/livechat-builder/img/Icon-fpt-ai.png',
+                floatButtonTooltip: 'FPT.AI xin chào',
+                floatButtonTooltipEnable: false,
+                // start screen
+                customerLogo: 'https://chatbot-tools.fpt.ai/livechat-builder/img/bot.png',
+                customerWelcomeText: 'Vui lòng nhập tên của bạn',
+                customerButtonText: 'Bắt đầu',
+                prefixEnable: false,
+                prefixType: 'radio',
+                prefixOptions: ["Anh", "Chị"],
+                prefixPlaceholder: 'Danh xưng',
+                // custom css
+                css: ''
+            }
+            // Get bot code from url if FptAppCode is empty
+            if (!FptAppCode) {
+                let appCodeFromHash = window.location.hash.substr(1)
+                if (appCodeFromHash.length === 32) {
+                    FptAppCode = appCodeFromHash
+                }
+            }
+            // Set Configs
+            let FptLiveChatConfigs = {
+                appName: FptAppName,
+                appCode: FptAppCode,
+                themes: '',
+                styles: CustomStyles
+            }
+            // Append Script
+            let FptLiveChatScript = document.createElement('script')
+            FptLiveChatScript.id = 'fpt_ai_livechat_script'
+            FptLiveChatScript.src = liveChatBaseUrl + '/static/fptai-livechat.js'
+            document.body.appendChild(FptLiveChatScript)
+            // Append Stylesheet
+            let FptLiveChatStyles = document.createElement('link')
+            FptLiveChatStyles.id = 'fpt_ai_livechat_script'
+            FptLiveChatStyles.rel = 'stylesheet'
+            FptLiveChatStyles.href = liveChatBaseUrl + '/static/fptai-livechat.css'
+            document.body.appendChild(FptLiveChatStyles)
+            // Init
+            FptLiveChatScript.onload = function () {
+                fpt_ai_render_chatbox(FptLiveChatConfigs, liveChatBaseUrl, LiveChatSocketUrl)
+            }
+        </script>
+</body>
+</html>
+@*<script src="~/bootstrap/js/bootstrap.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>*@
+<script src="~/bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>

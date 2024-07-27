@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAC4my6bY0Vk6nfnw6FetgDAAAAAACAAAAAAAQZgAAAAEAACAAAAAF7WRT7BnHuvYYBXuRrTsl16EKDvFT0TMgcyg69l+EmAAAAAAOgAAAAAIAACAAAABma2if8xzTMWOGDE/CTpYu2Zg/j9jhcEBgra2kBATErCAAAACh6sPpqKm0mOzbP0wImdPZGrtbfNB2cWWgBNeDIKaND0AAAAAtGjMlvwZMCFgedttDwh5TPBM5IbvQR5bnfbZENQGZtrNw5f8ppQKiPOjIx2L/ncK+EK4+4cxY5oG9o8tHeDW3</EncryptedPassword>
+    <History>False|2024-06-24T10:02:20.1172803Z;False|2024-06-24T16:59:20.1145384+07:00;False|2024-06-24T16:56:48.9888552+07:00;False|2024-06-24T16:54:05.4872639+07:00;False|2024-06-24T16:17:27.5468105+07:00;False|2024-06-24T16:12:02.2887503+07:00;False|2024-06-24T16:10:28.5655594+07:00;False|2024-06-24T16:03:39.7571545+07:00;False|2024-06-24T16:00:59.0685120+07:00;False|2024-06-24T15:59:44.7456578+07:00;False|2024-06-24T15:48:39.0460969+07:00;False|2024-06-24T15:40:54.8675067+07:00;False|2024-06-24T15:37:19.3972272+07:00;False|2024-06-24T15:31:38.1872297+07:00;False|2024-06-24T15:28:15.3581744+07:00;False|2024-06-24T15:26:28.0181963+07:00;False|2024-06-24T15:20:27.9803683+07:00;False|2024-06-24T15:14:40.2289720+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:dataqlvaccinesql.database.windows.net,1433;Initial Catalog=vaccinesql;User Id=qlvaccine@dataqlvaccinesql;Password=Huuthang.1909" />
+    <AzureDBConnectionStrings Include="REDACTED" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TiemChungVC" Class="QL_VACCINEDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=TiemChungVC;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="TiemChungVCConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.COMBO_VACCINE" Member="COMBO_VACCINEs">
+    <Type Name="COMBO_VACCINE">
+      <Column Name="ma_combo" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten_combo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="gia_combo" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="COMBO_VACCINE_CHITIET_COMBO_VACCXINE" Member="CHITIET_COMBO_VACCXINEs" ThisKey="ma_combo" OtherKey="ma_combo" Type="CHITIET_COMBO_VACCXINE" />
+      <Association Name="COMBO_VACCINE_NGUOITIEM_DANGKY" Member="NGUOITIEM_DANGKies" ThisKey="ma_combo" OtherKey="ma_combo" Type="NGUOITIEM_DANGKY" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VOUCHER" Member="VOUCHERs">
+    <Type Name="VOUCHER">
+      <Column Name="ma_voucher" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten_voucher" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ngaybatdau_voucher" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ngayketthuc_voucher" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="giamgia_voucher" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIET_COMBO_VACCXINE" Member="CHITIET_COMBO_VACCXINEs">
+    <Type Name="CHITIET_COMBO_VACCXINE">
+      <Column Name="ma_combo" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_loaivaccin" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soluong_vaccine" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="COMBO_VACCINE_CHITIET_COMBO_VACCXINE" Member="COMBO_VACCINE" ThisKey="ma_combo" OtherKey="ma_combo" Type="COMBO_VACCINE" IsForeignKey="true" />
+      <Association Name="LOAIVACCINE_CHITIET_COMBO_VACCXINE" Member="LOAIVACCINE" ThisKey="ma_loaivaccin" OtherKey="ma_loaivaccine" Type="LOAIVACCINE" IsForeignKey="true" />
+      <Association Name="VACCINE_CHITIET_COMBO_VACCXINE" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIET_HOADON" Member="CHITIET_HOADONs">
+    <Type Name="CHITIET_HOADON">
+      <Column Name="ma_hoadon" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soluong_vaccine" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ten_vaccine" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="philuukho" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="thoigian_thanhtoan" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="hinhthuc_thanhtoan" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="HOADON_CHITIET_HOADON" Member="HOADON" ThisKey="ma_hoadon" OtherKey="ma_hoadon" Type="HOADON" IsForeignKey="true" />
+      <Association Name="VACCINE_CHITIET_HOADON" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIET_PHIEUNHAP" Member="CHITIET_PHIEUNHAPs">
+    <Type Name="CHITIET_PHIEUNHAP">
+      <Column Name="ma_phieunhap" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="so_luong" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="gia_vaccine" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="PHIEUNHAP_CHITIET_PHIEUNHAP" Member="PHIEUNHAP" ThisKey="ma_phieunhap" OtherKey="ma_phieunhap" Type="PHIEUNHAP" IsForeignKey="true" />
+      <Association Name="VACCINE_CHITIET_PHIEUNHAP" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOADON" Member="HOADONs">
+    <Type Name="HOADON">
+      <Column Name="ma_hoadon" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_dangky" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_khachhang" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_voucher" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="ma_combo" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="trangthai" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="HOADON_CHITIET_HOADON" Member="CHITIET_HOADONs" ThisKey="ma_hoadon" OtherKey="ma_hoadon" Type="CHITIET_HOADON" />
+      <Association Name="KHACHHANG_HOADON" Member="KHACHHANG" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="NGUOITIEM_DANGKY_HOADON" Member="NGUOITIEM_DANGKY" ThisKey="ma_dangky" OtherKey="ma_dangky" Type="NGUOITIEM_DANGKY" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
+    <Type Name="KHACHHANG">
+      <Column Name="ma_khachhang" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoten_khachhang" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="sdt_khachhang" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="email_khachhang" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ngaysinh_khachhang" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioitinh_khachhang" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="pass_khachhang" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="diemthanthiet" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="trangthai" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="KHACHHANG_HOADON" Member="HOADONs" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="HOADON" />
+      <Association Name="KHACHHANG_NGUOITIEM_DANGKY" Member="NGUOITIEM_DANGKies" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="NGUOITIEM_DANGKY" />
+      <Association Name="KHACHHANG_GIOHANG" Member="GIOHANGs" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="GIOHANG" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHO" Member="KHOs">
+    <Type Name="KHO">
+      <Column Name="ten_kho" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soluong_vaccine" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="donvitinh" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_nhacungcap" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="NHACUNGCAP_KHO" Member="NHACUNGCAP" ThisKey="ma_nhacungcap" OtherKey="ma_nhacungcap" Type="NHACUNGCAP" IsForeignKey="true" />
+      <Association Name="VACCINE_KHO" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAIVACCINE" Member="LOAIVACCINEs">
+    <Type Name="LOAIVACCINE">
+      <Column Name="ma_loaivaccine" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten_loaivaccine" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="LOAIVACCINE_CHITIET_COMBO_VACCXINE" Member="CHITIET_COMBO_VACCXINEs" ThisKey="ma_loaivaccine" OtherKey="ma_loaivaccin" Type="CHITIET_COMBO_VACCXINE" />
+      <Association Name="LOAIVACCINE_NGUOITIEM_DANGKY" Member="NGUOITIEM_DANGKies" ThisKey="ma_loaivaccine" OtherKey="ma_loaivaccine" Type="NGUOITIEM_DANGKY" />
+      <Association Name="LOAIVACCINE_VACCINE" Member="VACCINEs" ThisKey="ma_loaivaccine" OtherKey="ma_loaivaccine" Type="VACCINE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NGUOITIEM_DANGKY" Member="NGUOITIEM_DANGKies">
+    <Type Name="NGUOITIEM_DANGKY">
+      <Column Name="ma_dangky" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoten_nguoitiem" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ngaysinh_nguoitiem" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="gioitinh_nguoitiem" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="diachi_nguoitiem" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="hoten_nguoilienhe" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="moiquanhe_nguoitiem" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="sdt_nguoilienhe" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ma_loaivaccine" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="loai_vaccine" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ma_khachhang" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ngay_dangky" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ngay_muontiem" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ma_combo" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Association Name="NGUOITIEM_DANGKY_HOADON" Member="HOADONs" ThisKey="ma_dangky" OtherKey="ma_dangky" Type="HOADON" />
+      <Association Name="COMBO_VACCINE_NGUOITIEM_DANGKY" Member="COMBO_VACCINE" ThisKey="ma_combo" OtherKey="ma_combo" Type="COMBO_VACCINE" IsForeignKey="true" />
+      <Association Name="KHACHHANG_NGUOITIEM_DANGKY" Member="KHACHHANG" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="LOAIVACCINE_NGUOITIEM_DANGKY" Member="LOAIVACCINE" ThisKey="ma_loaivaccine" OtherKey="ma_loaivaccine" Type="LOAIVACCINE" IsForeignKey="true" />
+      <Association Name="VACCINE_NGUOITIEM_DANGKY" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHACUNGCAP" Member="NHACUNGCAPs">
+    <Type Name="NHACUNGCAP">
+      <Column Name="ma_nhacungcap" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten_nhacungcap" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="diachi_nhacungcap" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="sdt_nhacungcap" Type="System.String" DbType="NChar(12) NOT NULL" CanBeNull="false" />
+      <Association Name="NHACUNGCAP_KHO" Member="KHOs" ThisKey="ma_nhacungcap" OtherKey="ma_nhacungcap" Type="KHO" />
+      <Association Name="NHACUNGCAP_PHIEUNHAP" Member="PHIEUNHAPs" ThisKey="ma_nhacungcap" OtherKey="ma_nhacungcap" Type="PHIEUNHAP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
+    <Type Name="NHANVIEN">
+      <Column Name="ma_nhanvien" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoten_nhanvien" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="diachi_nhanvien" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="sdt_nhanvien" Type="System.String" DbType="NChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="email_nhanvien" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cccd_nhanvien" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="ngaysinh_nhanvien" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="gioitinh_nhanvien" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="anh_nhanvien" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="NHANVIEN_PHIEUNHAP" Member="PHIEUNHAPs" ThisKey="ma_nhanvien" OtherKey="ma_nhanvien" Type="PHIEUNHAP" />
+      <Association Name="NHANVIEN_TAIKHOAN" Member="TAIKHOAN" ThisKey="ma_nhanvien" OtherKey="ma_nhanvien" Type="TAIKHOAN" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHIEUNHAP" Member="PHIEUNHAPs">
+    <Type Name="PHIEUNHAP">
+      <Column Name="ma_phieunhap" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_nhanvien" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_nhacungcap" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ngay_nhap" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="tong_tien" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="PHIEUNHAP_CHITIET_PHIEUNHAP" Member="CHITIET_PHIEUNHAPs" ThisKey="ma_phieunhap" OtherKey="ma_phieunhap" Type="CHITIET_PHIEUNHAP" />
+      <Association Name="NHACUNGCAP_PHIEUNHAP" Member="NHACUNGCAP" ThisKey="ma_nhacungcap" OtherKey="ma_nhacungcap" Type="NHACUNGCAP" IsForeignKey="true" />
+      <Association Name="NHANVIEN_PHIEUNHAP" Member="NHANVIEN" ThisKey="ma_nhanvien" OtherKey="ma_nhanvien" Type="NHANVIEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAIKHOAN" Member="TAIKHOANs">
+    <Type Name="TAIKHOAN">
+      <Column Name="ma_nhanvien" Type="System.String" DbType="NChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tendangnhap" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="matkhau" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="NHANVIEN_TAIKHOAN" Member="NHANVIEN" ThisKey="ma_nhanvien" OtherKey="ma_nhanvien" Type="NHANVIEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VACCINE" Member="VACCINEs">
+    <Type Name="VACCINE">
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_loaivaccine" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="ten_vaccine" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="anh_vaccine" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="thongtin_vaccine" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="doituong" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="phacdolichtiem" Type="System.String" DbType="NVarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="tinhtrangvaccine" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="gia_vacine" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ngay_san_xuat" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="hansudung_vaccine" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="note" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="phongbenh" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="nguongoc" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="VACCINE_CHITIET_COMBO_VACCXINE" Member="CHITIET_COMBO_VACCXINEs" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="CHITIET_COMBO_VACCXINE" />
+      <Association Name="VACCINE_CHITIET_HOADON" Member="CHITIET_HOADONs" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="CHITIET_HOADON" />
+      <Association Name="VACCINE_CHITIET_PHIEUNHAP" Member="CHITIET_PHIEUNHAPs" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="CHITIET_PHIEUNHAP" />
+      <Association Name="VACCINE_KHO" Member="KHOs" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="KHO" />
+      <Association Name="VACCINE_NGUOITIEM_DANGKY" Member="NGUOITIEM_DANGKies" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="NGUOITIEM_DANGKY" />
+      <Association Name="VACCINE_GIOHANG" Member="GIOHANGs" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="GIOHANG" />
+      <Association Name="LOAIVACCINE_VACCINE" Member="LOAIVACCINE" ThisKey="ma_loaivaccine" OtherKey="ma_loaivaccine" Type="LOAIVACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GIOHANG" Member="GIOHANGs">
+    <Type Name="GIOHANG">
+      <Column Name="id_giohang" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ma_khachhang" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ma_vaccine" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="soluong" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KHACHHANG_GIOHANG" Member="KHACHHANG" ThisKey="ma_khachhang" OtherKey="ma_khachhang" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="VACCINE_GIOHANG" Member="VACCINE" ThisKey="ma_vaccine" OtherKey="ma_vaccine" Type="VACCINE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

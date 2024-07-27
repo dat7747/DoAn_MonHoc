@@ -1,0 +1,674 @@
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csprojResolveAssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_3005_1h19p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\Users\Admin\OneDrive\Máy tính\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+D:\KhoaLuanKySu\WEB\Dat_0106_02h15p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_0806_22h38p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Owin.dll
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.xml
+C:\T\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Owin.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+C:\FileNayChuBaiTap\KhoaLuanTotNghiep\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Owin.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll.config
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Association.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\DataMining.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EntityFramework.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EntityFramework.SqlServer.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.Interfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.System.Drawing.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Infrastructure.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Owin.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Configuration.ConfigurationManager.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\ZstdSharp.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\BouncyCastle.Cryptography.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EntityFramework.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EntityFramework.SqlServer.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\EPPlus.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Google.Protobuf.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.Core.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Hangfire.SqlServer.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Compression.LZ4.Streams.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\K4os.Hash.xxHash.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\MySql.Data.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\Newtonsoft.Json.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Buffers.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Diagnostics.DiagnosticSource.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.IO.Pipelines.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Memory.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Numerics.Vectors.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Threading.Tasks.Extensions.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Net.Http.Formatting.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Helpers.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Http.WebHost.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Mvc.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Deployment.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\bin\System.Web.WebPages.Razor.xml
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CoreCompileInputs.cache
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.CopyComplete
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.dll
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.pdb
+D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Debug\Web_TiemChungVaccine.csproj.AssemblyReference.cache

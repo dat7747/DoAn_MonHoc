@@ -1,0 +1,248 @@
+﻿@{ ViewBag.Title = "Điều khoản thanh toán";
+                Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml"; }
+@using System.Globalization;
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn phương thức thanh toán</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container1 {
+            border: 1px solid #ccc;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+            .info-table th,
+            .info-table td {
+                padding: 8px;
+                border-bottom: 1px solid #ccc;
+                text-align: left;
+            }
+
+            .info-table th {
+                background-color: #f2f2f2;
+            }
+
+        .footer1 {
+            text-align: right;
+            margin-right: 20px;
+            background-color:#090115;
+
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center; 
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <h1 style="margin-top:10px;margin-bottom:20px;"><b>CHỌN PHƯƠNG THỨC THANH TOÁN</b></h1>
+            <div class="step-bar">
+                <div class="step@(ViewBag.CurrentStep == 1 ? " active" : "")">Bước 1</div>
+                <div class="step@(ViewBag.CurrentStep == 2 ? " active" : "")">Bước 2</div>
+                <div class="step@(ViewBag.CurrentStep == 3 ? " active" : "")">Bước 3</div>
+            </div>
+        </div>
+        <div class="content">
+            <table class="info-table">
+                <tr>
+                    <th>Tên Vaccine</th>
+                    <td>
+                        @if (ViewBag.TenVaccine != null)
+                        {
+                            <ul>
+                                @foreach (var tenVaccine in ViewBag.TenVaccine)
+                                {
+                                    <li>@tenVaccine</li>
+}
+                            </ul>}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Giá Vaccine</th>
+                    @*<td>
+                                    @if (ViewBag.GiaVaccine != null)
+                                    {
+                        <ul>
+                            @foreach (var giaVaccine in ViewBag.GiaVaccine)
+                            {
+            <li>@String.Format("{0:C}", giaVaccine)</li>}
+                        </ul>}
+                                </td>*@
+                    <td>
+                        @if (ViewBag.GiaVaccine != null)
+                        {
+                            <ul>
+                                @foreach (var giaVaccine in ViewBag.GiaVaccine)
+                                {
+                                    <li>@String.Format("{0:n0}", giaVaccine) VND</li>
+                                }
+                            </ul>
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <th>Tên Combo</th>
+                    <td>
+                        @if (ViewBag.TenCombo != null)
+                        {
+                            <ul>
+                                @foreach (var tenCombo in ViewBag.TenCombo)
+                                {
+                                    <li>@tenCombo</li>
+}
+                            </ul>}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Giá Combo</th>
+                    <td>
+                        @if (ViewBag.GiaCombo != null)
+                        {
+                            <ul>
+                                @foreach (var giaCombo in ViewBag.GiaCombo)
+                                {
+                                    <li>@String.Format("{0:C}", giaCombo)</li>
+}
+                            </ul>}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Voucher áp dụng</th>
+                    <td>@ViewBag.MaVoucher</td>
+                </tr>
+
+                <tr>
+                    <th style="color:red" colspan="2"><b>Thông tin khách hàng</b></th>
+                </tr>
+                <tr>
+                    <th>Tên khách hàng</th>
+                    <td>@ViewBag.TenTaiKhoan</td>
+                </tr>
+                <tr>
+                    <th>Số điện thoại khách hàng: </th>
+                    <td>@ViewBag.SoDienThoaiTaiKhoan</td>
+                </tr>
+                <tr>
+                    <th style="color:red" colspan="2"><b>Thông tin người được tiêm</b></th>
+                </tr>
+                <tr>
+
+                    <th>Tên người được tiêm</th>
+                    <td>@ViewBag.TenKhachHang</td>
+                </tr>
+                <tr>
+                    <th>Ngày sinh của người tiêm</th>
+                    <td>
+                        @{ var ngaySinhNguoiTiem = ViewBag.NgaySinhNguoiTiem as string;
+                            if (!string.IsNullOrEmpty(ngaySinhNguoiTiem))
+                            {
+                                DateTime parsedDateTime;
+                                if (DateTime.TryParseExact(ngaySinhNguoiTiem, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out parsedDateTime))
+                                {
+                                    @parsedDateTime.ToString("dd/MM/yyyy") }
+                                else
+                                {
+                                    <text>N/A</text> }
+                            }
+                            else
+                            {
+                                <text>N/A</text> } }
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Địa chỉ của người tiêm</th>
+                    <td>@ViewBag.DiaChiNguoiTiem</td>
+                </tr>
+                <tr>
+                    <th>Giới tính: </th>
+                    <td> @ViewBag.GioiTinhNguoiTiem</td>
+                </tr>
+                <tr>
+                    <th>Ngày muốn tiêm</th>
+                    <td>
+                        @{ var ngayMuonTiem = ViewBag.NgayMuonTiem as string;
+                            if (!string.IsNullOrEmpty(ngaySinhNguoiTiem))
+                            {
+                                DateTime parsedDateTime;
+                                if (DateTime.TryParseExact(ngayMuonTiem, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out parsedDateTime))
+                                {
+                                    @parsedDateTime.ToString("dd/MM/yyyy") }
+                                else
+                                {
+                                    <text>N/A</text> }
+                            }
+                            else
+                            {
+                                <text>N/A</text> } }
+                    </td>
+                </tr>
+                <tr>
+                    <th style="color:red" colspan="2"><b>Thông tin người liên hệ</b></th>
+                </tr>
+                <tr>
+                    <th>Họ tên người liên hệ</th>
+                    <td>@ViewBag.TenNguoiTiem</td>
+                </tr>
+                <tr>
+                    <th>Mối quan hệ</th>
+                    <td>@ViewBag.MoiQuanHe</td>
+                </tr>
+                <tr>
+                    <th>Số điện thoại người liên hệ</th>
+                    <td>@ViewBag.SoDienThoai</td>
+                </tr>
+            </table>
+        </div>
+        <div style="color: white; font-family: 'Times New Roman',Times,serif; font-size:20px ;font-weight: bold;" class="footer1">
+            <p><strong><b>Phí lưu kho:</b> @ViewBag.PhiLuuKho.ToString("N0") VND</strong></p>
+            <p><strong><b>Tổng thanh toán:</b> @ViewBag.TongThanhToan.ToString("N0") VND</strong></p>
+        </div>
+    </div>
+    <form method="post" action="@Url.Action("DieuKhoanThanhToan", "GioHang")">
+        <div class="form-group">
+            @if (ViewBag.MaVaccineList != null)
+            {
+                foreach (var maVaccine in ViewBag.MaVaccineList)
+                {
+                    <input type="hidden" name="maVaccineListt" value="@maVaccine" />}
+            }
+            @if (ViewBag.MaComboList != null)
+            {
+                foreach (var maCombo in ViewBag.MaComboList)
+                {
+                    <input type="hidden" name="maComboListt" value="@maCombo" />}
+            }
+            <input type="hidden" name="phiLuuKho" value="@ViewBag.PhiLuuKho" />
+            <input type="hidden" name="tongThanhToan" value="@ViewBag.TongThanhToan" />
+            <input type="hidden" name="name" value="@ViewBag.TenKhachHang" />
+            <input type="hidden" name="dob" value="@ViewBag.NgaySinhNguoiTiem" />
+            <input type="hidden" name="address" value="@ViewBag.DiaChiNguoiTiem" />
+            <input type="hidden" name="sex" value="@ViewBag.GioiTinhNguoiTiem" />
+            <input type="hidden" name="contact-name" value="@ViewBag.TenNguoiTiem" />
+            <input type="hidden" name="relationship" value="@ViewBag.MoiQuanHe" />
+            <input type="hidden" name="phone" value="@ViewBag.SoDienThoai" />
+            <input type="hidden" name="desired-date" value="@ViewBag.NgayMuonTiem" />
+            <input type="hidden" name="ma-voucher" value="@ViewBag.MaVoucher" />
+            <div class="buttons-container">
+                <button type="submit" name="action" value="ThanhToan" class="btn btn-primary" style="display: inline-block; margin: 0 10px;">Thanh toán <i class="fa fa-money" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

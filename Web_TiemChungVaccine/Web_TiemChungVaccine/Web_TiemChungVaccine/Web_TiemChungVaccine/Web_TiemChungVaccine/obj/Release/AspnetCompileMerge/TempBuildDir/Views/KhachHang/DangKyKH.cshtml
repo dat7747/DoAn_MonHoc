@@ -1,0 +1,129 @@
+﻿@model Web_TiemChungVaccine.Models.KHACHHANG
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/bootstrap/css/StyleDKDNKH.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/Style_Select.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        .field-validation-error {
+            color: red;
+            margin-bottom: 5px;
+            display: block;
+            clear: both;
+        }
+
+        .validation-summary-errors {
+            color: red;
+            margin-bottom: 10px;
+            clear: both;
+        }
+
+        .input-field, .field {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .field-validation-error {
+            position: absolute;
+            top: -20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container1 forms">
+        <div class="form login">
+            <div class="form-content">
+                <div class="media-options">
+                    <a href="#">
+                        <img src="~/Images/logobg_webvaccine.png" style="width: 150px; height: 150px;" />
+                    </a>
+                </div>
+                <header><h3>Đăng ký tài khoản</h3></header>
+                <form id="registerForm" method="post">
+                    <div class="field input-field">
+                        <div>@Html.ValidationMessage("emailError", "", new { @class = "field-validation-error" })</div>
+                        <input type="email" placeholder="Email" class="input" name="dkyemailkh" id="dkyemailkh">
+                    </div>
+
+                    <div class="field input-field">
+                        <div>@Html.ValidationMessage("passwordError", "", new { @class = "field-validation-error" })</div>
+                        <input type="password" placeholder="Mật khẩu" class="password" name="dkymatkhaukh" id="dkymatkhaukh">
+                    </div>
+                    <div class="field input-field">
+                        <div>@Html.ValidationMessage("confirmPasswordError", "", new { @class = "field-validation-error" })</div>
+                        <input type="password" placeholder="Nhập lại mật khẩu" class="password" name="dkyxacnhanmatkhaukh" id="dkyxacnhanmatkhaukh">
+                    </div>
+                    <div class="field input-field">
+                        <div>@Html.ValidationMessage("nameError", "", new { @class = "field-validation-error" })</div>
+                        <input type="text" placeholder="Họ và tên" class="input" name="dkytenkh" id="dkytenkh">
+                    </div>
+
+                    <div class="field input-field">
+                        <div>@Html.ValidationMessage("sdtError", "", new { @class = "field-validation-error" })</div>
+                        <input type="text" placeholder="Số điện thoại" class="input" name="dkysdtkh" id="dkysdtkh">
+                    </div>
+
+                    <div class="form-group">
+                        <div>@Html.ValidationMessage("myError", "", new { @class = "field-validation-error" })</div>
+                        <select class="form-control field input-field" name="dkygioitinhkh" id="dkygioitinhkh">
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Khác">Khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group field input-field">
+                        <div>@Html.ValidationMessage("ngaysinhError", "", new { @class = "field-validation-error" })</div>
+                        <input type="date" name="dkyngaysinhkh" id="dkyngaysinhkh">
+                    </div>
+
+                    <div>
+                        <div>@Html.ValidationSummary(true, "", new { @class = "validation-summary-errors" })</div>
+                    </div>
+
+                    <div class="field button-field">
+                        <button type="submit" id="registerBtn">Đăng ký</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Bạn đã đăng ký tài khoản từ trước?<a href="/KhachHang/DangNhapKH">Vui lòng đăng nhập</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<script>
+    const forms = document.querySelector(".forms"),
+        pwShowHide = document.querySelectorAll(".eye-icon"),
+        links = document.querySelectorAll(".link");
+    pwShowHide.forEach(eyeIcon => {
+        eyeIcon.addEventListener("click", () => {
+            let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+            pwFields.forEach(password => {
+                if (password.type === "password") {
+                    password.type = "text";
+                    eyeIcon.classList.replace("bx-hide", "bx-show");
+                    return;
+                }
+                password.type = "password";
+                eyeIcon.classList.replace("bx-show", "bx-hide");
+            })
+        })
+    })
+    links.forEach(link => {
+        link.addEventListener("click", e => {
+            e.preventDefault(); //preventing form submit
+            forms.classList.toggle("show-signup");
+        })
+    })
+</script>

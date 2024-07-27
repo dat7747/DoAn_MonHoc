@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "ConfirmEmail";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+
+<h2>Xác Nhận Email</h2>
+
+@if (ViewBag.success == "OK")
+{
+    <p>Email của bạn đã được xác nhận thành công. Bạn có thể <a href="@Url.Action("DangNhapKH", "KhachHang")">đăng nhập</a> ngay bây giờ.</p>
+}
+else
+{
+    <p>Có lỗi xảy ra trong quá trình xác nhận email. Vui lòng thử lại hoặc <a href="@Url.Action("XacThuc", "KhachHang", new { Email = ViewBag.Email })">gửi lại email xác nhận</a>.</p>
+}

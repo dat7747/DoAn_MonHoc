@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\KhoaLuanKySu\WEB\Dat_New_1606_17h45p\New11\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\Web_TiemChungVaccine\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

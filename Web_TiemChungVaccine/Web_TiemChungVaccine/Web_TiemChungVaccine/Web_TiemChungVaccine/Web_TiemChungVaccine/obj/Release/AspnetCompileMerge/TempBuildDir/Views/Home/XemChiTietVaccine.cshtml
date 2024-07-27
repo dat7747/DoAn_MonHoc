@@ -1,0 +1,210 @@
+﻿@{
+    ViewBag.Title = "Xem Chi Tiết Vaccine";
+    Layout = "~/Views/Shared/Giaodientrangchu.cshtml";
+}
+@using Web_TiemChungVaccine.Models;
+@model VACCINE
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href="~/bootstrap/css/datmua_hieuung.css" rel="stylesheet" />
+<link href="~/bootstrap/css/button_hieuung.css" rel="stylesheet" />
+<link href="~/bootstrap/css/Stylekhungviennd.css" rel="stylesheet" />
+<style>
+    .justified-text {
+        text-align: justify;
+    }
+    .container {
+        width: 100%; /* Đặt chiều rộng của container */
+        height: 100%; /* Đặt chiều cao của container */
+    }
+    .rounded-box {
+        border-radius: 8px;
+    }
+
+    .bg-danger {
+        background-color: #dc3545 !important; /* Màu đỏ */
+    }
+
+    .text-white {
+        color: #fff !important; /* Màu chữ trắng */
+    }
+
+
+    .bg-danger {
+        background-color: #dc3545 !important; /* Màu đỏ */
+    }
+
+    .text-white {
+        color: #fff !important; /* Màu trắng */
+    }
+
+    .fw-bold {
+        font-weight: bold !important;
+    }
+
+    .fs-4 {
+        font-size: 1.25rem !important; /* Kích thước chữ 1.25 lần */
+    }
+
+    .py-4 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important; /* Padding 1.5rem trên và dưới */
+    }
+
+    .me-2 {
+        margin-right: 0.5rem !important; /* Khoảng cách 0.5rem giữa các phần tử */
+    }
+
+    .px-3 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important; /* Padding ngang 1rem */
+    }
+
+    .py-2 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important; /* Padding dọc 0.5rem */
+    }
+
+    .justify-content-center {
+        justify-content: center !important; /* Căn giữa ngang */
+    }
+
+    .align-items-center {
+        align-items: center !important; /* Căn giữa dọc */
+    }
+
+    .col-auto {
+        flex: 0 0 auto;
+        width: auto; /* Tự động căn giữa theo nội dung */
+    }
+    .button-container {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .button-quaylai {
+        background-color: #0077b6; /* Màu xanh dương */
+        color: #ffffff; /* Màu trắng */
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+    }
+
+    .button-quaylai-input {
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .button-quaylai:hover {
+        background-color: #005a8e; /* Màu xanh dương đậm hơn khi rê chuột vào */
+        color: #ffffff; /* Giữ màu chữ là trắng khi rê chuột vào */
+    }
+</style>
+<font face="Verdana">
+    <div class="button-container">
+        <a href="javascript:history.back()" class="button-quaylai">
+            <input type="button" value="Quay Lại" class="button-quaylai-input" />
+        </a>
+    </div>
+    <a class="text-center">
+        <h1><b style="border-bottom: 5px solid blue;margin-bottom:10px;margin-top:20px">CHI TIẾT VACCINE</b></h1>
+    </a>
+</font>
+<div class="container">
+    <div class="row"style="margin-top:15px;">
+        <div class="text-center"><h3><b>@Model.ten_vaccine (@Model.nguongoc)</b></h3></div>
+    </div>
+    <div class="row">
+        <div class="col-10">
+            <h3><b style="color:red"></b><span><b></b></span></h3><br /><br />
+        <div class="col-2">
+            <a href="">
+                @*<center><button class="codepro-custom-btn codepro-btn-13 glowing-text"><span></span></button></center>*@
+            </a>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-7">
+                <span> <img src="~/Images/@Model.anh_vaccine" style="height:350px;width:550px; margin-bottom:20px;"></span>
+            </div>
+            <div class="col-5 d-flex justify-content-center align-items-center" style="font-family: Tahoma; font-size: 19px;">
+                <div class="rounded-box d-flex justify-content-center align-items-center bg-danger text-white" style="height: 80px; border: 2px solid #fff; width:100%">
+                    <div>
+                        <b>Loại vaccine: </b><span>@Model.LOAIVACCINE.ten_loaivaccine</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-family: 'Tahoma', sans-serif;">1. Thông tin vaccine</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.thongtin_vaccine</span>
+                </div>
+            </div>
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-family: 'Tahoma', sans-serif;">2. Đối tượng</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.doituong</span>
+                </div>
+            </div>
+
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-family: 'Tahoma', sans-serif;">3. Phác đồ lịch tiêm</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.phacdolichtiem</span>
+                </div>
+            </div>
+
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-amily: 'Tahoma', sans-serif;">4. Note</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.note</span>
+                </div>
+            </div>
+
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-family: 'Tahoma', sans-serif;">5. Phòng bệnh</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.phongbenh</span>
+                </div>
+            </div>
+
+            <div class="rounded-box" style="border: 2px solid #0077b6; border-radius: 5px; margin-bottom:50px;">
+                <div class="row" style="background-color: #0077b6;">
+                    <b style="color: white; padding: 10px 10px; border-radius: 5px 5px 0 0; font-size: 20px; font-family: 'Tahoma', sans-serif;">6. Nguồn gốc</b>
+                </div>
+                <div class="justified-text" style="padding: 10px;">
+                    <span>@Model.nguongoc</span>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center bg-danger py-4">
+                <div class="col-auto">
+                    <h3 class="m-0 me-2 fw-bold text-white px-3 py-2" style="font-family: Tahoma; font-size: 20px;">
+                        Giá vaccine: <span class="fs-4" style="font-family: Tahoma; font-size: 25px;">@Model.gia_vacine.ToString("N0") VNĐ <i class="fa fa-tags" aria-hidden="true"></i></span>
+                    </h3>
+                </div>
+            </div>
+                <div class="row" style="padding-bottom:30px; margin-top:20px">
+                    <a href="/KhachHang/DangNhapKH"><button class="btncv" style="height:70px;width:400px; color:black;"><b>Thêm vào giỏ hàng</b></button></a>
+
+</div>
+            </div>
+</div>
+</div>

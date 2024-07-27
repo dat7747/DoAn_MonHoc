@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+@model IEnumerable<Web_TiemChungVaccine.Models.GioHangViewModel>
+
+<div style="text-align: center;">
+    <h2 style="background-color: #28a745;color: white;padding: 16px 22px; border-radius: 10px; display: inline-block; margin-bottom:20px;margin-top:20px;">
+        Giỏ Hàng Của Bạn <i class="fa fa-cart-plus" aria-hidden="true"></i>
+    </h2> 
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead style="background-color: #007bff; color: white; border-collapse: collapse;">
+            <tr style="border-bottom: 1px solid #dee2e6;">
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">STT</th>
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">Hình Ảnh</th>
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">Tên Vaccine / Combo</th>
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">Số Lượng</th>
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">Giá</th>
+                <th style="padding: 12px; border-right: 1px solid #dee2e6;">Thành Tiền</th>
+                <th style="padding: 12px;">Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                var item = Model.ElementAt(i);
+            <tr>
+                <td style="vertical-align: middle;">@(i + 1)</td>
+                <td style="vertical-align: middle;">
+                    <img src="~/Images/@item.AnhVaccine" alt="Vaccine Image" width="100" height="100" />
+                </td>
+                <td style="vertical-align: middle;">
+                    @if (string.IsNullOrEmpty(item.MaCombo))
+                    {
+                        @item.TenVaccine
+                    }
+                    else
+                    {
+                        <strong>@item.TenCombo</strong>
+                    }
+                </td>
+                <td style="vertical-align: middle;">@item.SoLuong</td>
+                @*<td style="vertical-align: middle;">
+            @if (string.IsNullOrEmpty(item.MaCombo))
+            {
+                @item.GiaVaccine.ToString("C")
+            }
+            else
+            {
+                @item.GiaCombo.ToString("C")
+            }
+        </td>*@
+                <td style="vertical-align: middle;">
+                    @if (string.IsNullOrEmpty(item.MaCombo))
+                    {
+                        @(string.Format("{0:#,0} VND", item.GiaVaccine))
+                    }
+                    else
+                    {
+                        @(string.Format("{0:#,0} VND", item.GiaCombo))
+                    }
+                </td>
+                @*<td style="vertical-align: middle;">
+            @if (string.IsNullOrEmpty(item.MaCombo))
+            {
+                @item.ThanhTien.ToString("C")
+            }
+            else
+            {
+                @((Convert.ToSingle(item.SoLuong) * item.GiaCombo).ToString("C"))
+            }
+        </td>*@
+
+                <td style="vertical-align: middle;">
+                    @if (string.IsNullOrEmpty(item.MaCombo))
+                    {
+                        @(string.Format("{0:#,0} VND", item.ThanhTien))
+                    }
+                    else
+                    {
+                        @(string.Format("{0:#,0} VND", (Convert.ToSingle(item.SoLuong) * item.GiaCombo)))
+                    }
+                </td>
+
+                <td style="vertical-align: middle;">
+                    @using (Html.BeginForm("XoaKhoiGioHang", "GioHang", FormMethod.Post))
+                    {
+                        @Html.Hidden("idGioHang", item.IdGioHang)
+                        <button type="submit" style="width: 100px; margin: 5px;" class="btn btn-danger"><b>Xóa</b> <i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                    }
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+<div style="text-align: center;">
+    @*<h3 style="color: red;">Tổng Tiền: @ViewBag.TongTien.ToString("C")</h3>*@
+    <h3 style="display: inline-block; background-color: #d9534f; color: white; padding: 16px 22px; font-size: 20px; border-radius: 10px; margin-top:20px;"><b>Tổng Tiền: @String.Format("{0:n0}", ViewBag.TongTien) VND </b><i class="fa fa-tags" aria-hidden="true"></i></h3>
+    @using (Html.BeginForm("DangKyMuiTiem", "GioHang", FormMethod.Post))
+    {
+        <button type="submit" class="btn btn-success btn-lg" style="margin-top: 20px;"><b>Đăng Ký Mũi Tiêm </b><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+    }
+</div>

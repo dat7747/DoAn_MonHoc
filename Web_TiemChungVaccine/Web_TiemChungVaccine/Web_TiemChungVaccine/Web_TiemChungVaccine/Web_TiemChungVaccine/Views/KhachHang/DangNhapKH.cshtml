@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng nhập Khách Hàng</title>
+    <link href="~/bootstrap/css/StyleDKDNKH.css" rel="stylesheet" />
+    <style>
+        .text-danger {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <div class="media-options">
+                    <a href="#" style="">
+                        <img src="~/Images/logobg_webvaccine.png" style="width: 150px; height: 150px;" />
+                    </a>
+                </div>
+                <header><h3>Đăng nhập</h3></header>
+                <form action="@Url.Action("DangNhapKH", "KhachHang")" method="post" id="form-login-dn-kh">
+                    <div class="editfont">
+                        <b>Email</b>
+                    </div>
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input" id="email" name="email" required />
+                    </div>
+                    <div class="editfont">
+                        <b>Mật khẩu</b>
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Mật khẩu" class="password" id="pswd" name="pswd" required />
+                        <i class='bx bx-hide eye-icon' style="color:black;"></i>
+                    </div>
+                    <div class="field input-field">
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @if (ViewData.ModelState["myError"] != null)
+                        {
+                            <span class="text-danger">@ViewData.ModelState["myError"].Errors[0].ErrorMessage</span>
+                        }
+                    </div>
+                    <div class="form-link1">
+                        <a href="#" class="forgot-pass">Quên mật khẩu?</a>
+                    </div>
+                    <div class="field button-field">
+                        <button type="submit">Đăng nhập</button>
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Bạn chưa có tài khoản? <a href="/KhachHang/DangKyKH" class="">Đăng ký ngay</a></span>
+                </div>
+            </div><br />
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script>
+    const forms = document.querySelector(".forms"),
+        pwShowHide = document.querySelectorAll(".eye-icon"),
+        links = document.querySelectorAll(".link");
+    pwShowHide.forEach(eyeIcon => {
+        eyeIcon.addEventListener("click", () => {
+            let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+
+            pwFields.forEach(password => {
+                if (password.type === "password") {
+                    password.type = "text";
+                    eyeIcon.classList.replace("bx-hide", "bx-show");
+                    return;
+                }
+                password.type = "password";
+                eyeIcon.classList.replace("bx-show", "bx-hide");
+            })
+        })
+    })
+    links.forEach(link => {
+        link.addEventListener("click", e => {
+            e.preventDefault(); //preventing form submit
+            forms.classList.toggle("show-signup");
+        })
+    })
+</script>

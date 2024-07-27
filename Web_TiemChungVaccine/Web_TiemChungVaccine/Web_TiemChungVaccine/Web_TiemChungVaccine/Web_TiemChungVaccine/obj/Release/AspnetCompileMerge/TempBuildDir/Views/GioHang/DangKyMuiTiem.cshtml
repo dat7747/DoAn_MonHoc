@@ -1,0 +1,333 @@
+﻿@{
+    ViewBag.Title = "DangKyMuiTiem";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+@using Web_TiemChungVaccine.Models
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tiêm vắc xin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+</head>
+<style>
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Đăng ký tiêm vắc xin</h1>
+        </header>
+        <main>
+            <div class="step-bar">
+                <div class="step@(ViewBag.CurrentStep == 1 ? " active" : "")">Bước 1</div>
+                <div class="step@(ViewBag.CurrentStep == 2 ? " active" : "")">Bước 2</div>
+                <div class="step@(ViewBag.CurrentStep == 3 ? " active" : "")">Bước 3</div>
+            </div>
+
+            <div class="step-content">
+                <h2>Bước 1: Thông tin người được tiêm</h2>
+                <div class="customer-info">
+                    <b>Chào mừng, @ViewBag.TenKhachHang!</b>
+                    <b>Số điểm tích lũy: @ViewBag.SoDiemTichLuy</b>
+                </div>
+                <div class="vaccine-info" id="vaccine-info">
+                    <p>Các vaccine và combo trong giỏ hàng:</p>
+                    @foreach (var item in ViewBag.VaccinesInCart)
+                    {
+                        var comboVaccine = item as ComboVaccineViewModel;
+                        if (comboVaccine != null)
+                        {
+                            <text><strong>@comboVaccine.TenComboVaccine</strong> - <strong style="color:red">Giá: @comboVaccine.GiaComboVaccine.ToString("N0") VND</strong><br /></text>
+                        }
+                        else
+                        {
+                            <text><strong>@item.TenVaccine</strong> - <strong style="color:red">Giá: @item.GiaVaccine.ToString("N0") VND</strong><br /></text>
+                        }
+                    }
+                </div>
+
+                <div class="add-vaccine-form">
+                    <form id="add-vaccine-form" method="post">
+                        <label for="vaccine-dropdown">Chọn thêm vaccine hoặc combo vaccine:</label>
+                        <select id="vaccine-dropdown" name="maOption">
+                            @if (ViewBag.Vaccines != null && ViewBag.Vaccines.Count > 0)
+                            {
+                                foreach (var option in ViewBag.Vaccines)
+                                {
+                                    <option value="@option.MaOption" data-loai="@option.LoaiOption">@option.TenOption (@option.LoaiOption)</option>
+                                }
+                            }
+                            else
+                            {
+                                <option value="">Không có loại vaccine hoặc combo vaccine</option>
+                            }
+                        </select>
+                        <input type="hidden" name="loaiOption" id="loaiOption" />
+                        <button type="submit" id="add-vaccine-btn"><b>THÊM VẮC XIN</b> <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                @section Scripts {
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $('#vaccine-dropdown').change(function () {
+                                var selectedOption = $(this).find(':selected');
+                                var loaiOption = selectedOption.data('loai');
+                                $('#loaiOption').val(loaiOption);
+                                console.log('Loại option được chọn:', loaiOption);
+                            });
+
+                            $('#add-vaccine-btn').click(function (e) {
+                                e.preventDefault();
+                                var selectedOption = $('#vaccine-dropdown').val();
+                                if (selectedOption) {
+                                    var form = $('#add-vaccine-form');
+                                    var formData = form.serialize();
+                                    $.post('@Url.Action("ThemVaoGioHang", "GioHang")', formData, function (data) {
+                                        if (data.success) {
+                                            alert(data.message); // Hiển thị thông báo thành công
+                                            window.location.reload();
+                                        } else {
+                                            window.location.reload(); // Hiển thị thông báo lỗi từ máy chủ
+                                        }
+                                    }).fail(function () {
+                                        alert("Đã xảy ra lỗi khi gửi yêu cầu đến server.");
+                                    });
+                                } else {
+                                    alert("Vui lòng chọn một loại vaccine hoặc combo vaccine trước khi thêm.");
+                                }
+                            });
+
+                            $('#continue-button').click(function (e) {
+                                e.preventDefault();
+                                var tenNguoiTiem = $('#name').val();
+                                var maKhachHang = '@Session["maKH"]';
+                                var loaiOption = $('#vaccine-dropdown').find(':selected').data('loai');
+                                var dob = new Date($('#dob').val());
+                                var today = new Date();
+                                var ageInMonths = (today.getFullYear() - dob.getFullYear()) * 12 + today.getMonth() - dob.getMonth();
+                                var vaccines = @Html.Raw(Json.Encode(ViewBag.VaccinesInCart));
+
+                                console.log('Vaccines in Cart:', vaccines); // Log toàn bộ đối tượng vaccines
+
+                                for (var i = 0; i < vaccines.length; i++) {
+                                    var vaccine = vaccines[i];
+                                    var note = vaccine.Note;
+                                    console.log('Vaccine:', vaccine);
+                                    console.log('Note của vaccine:', note); // Log để kiểm tra xem Note đã được truyền đúng hay chưa
+
+                                    if (note) {
+                                        var requiredAgeInMonths = parseFloat(note) * 12;
+                                        console.log('Age in months:', ageInMonths); // Log tuổi tính theo tháng
+                                        console.log('Required age in months:', requiredAgeInMonths); // Log tuổi yêu cầu tính theo tháng
+
+                                        if (ageInMonths < requiredAgeInMonths) {
+                                            alert("Bạn chưa đủ " + note + " năm tuổi để tiêm vaccine " + vaccine.TenVaccine + ". Xin vui lòng đến trung tâm để được tư vấn.");
+                                            return false;
+                                        }
+                                    }
+                                }
+
+                                // Kiểm tra các điều kiện bằng AJAX
+                                $.ajax({
+                                    url: '@Url.Action("KiemTraLichSuTiem", "GioHang")',
+                                    type: 'POST',
+                                    data: {
+                                        tenNguoiTiem: tenNguoiTiem,
+                                        maKhachHang: maKhachHang,
+                                        loaiOption: loaiOption
+                                    },
+                                    success: function (response) {
+                                        if (!response.success) {
+                                            alert(response.message);
+                                        } else {
+                                            // Gửi form nếu không có lỗi
+                                            $('#person-info-form').unbind('submit').submit();
+                                        }
+                                    },
+                                    error: function () {
+                                        alert("Đã xảy ra lỗi khi gửi yêu cầu đến server.");
+                                    }
+                                });
+                            });
+
+                            function containsNumber(str) {
+                                return /\d/.test(str);
+                            }
+
+                            function validateForm() {
+                                var nameInput = document.getElementById("name");
+                                var contactNameInput = document.getElementById("contact-name");
+                                var phoneInput = document.getElementById("phone");
+                                var dobInput = document.getElementById("dob");
+                                var desiredDateInput = document.getElementById("desired-date");
+
+                                var dob = new Date(dobInput.value);
+                                var desiredDate = new Date(desiredDateInput.value);
+                                var today = new Date();
+
+                                if (containsNumber(nameInput.value)) {
+                                    alert("Họ tên người tiêm không được chứa số.");
+                                    return false;
+                                }
+
+                                if (containsNumber(contactNameInput.value)) {
+                                    alert("Họ tên người liên hệ không được chứa số.");
+                                    return false;
+                                }
+
+                                if (dob >= today) {
+                                    alert("Ngày sinh người được tiêm phải bé hơn ngày hiện tại.");
+                                    return false;
+                                }
+
+                                var phoneRegex = /^0\d{9}$/;
+                                if (!phoneRegex.test(phoneInput.value)) {
+                                    alert("Số điện thoại phải có 10 ký tự và bắt đầu bằng số 0.");
+                                    return false;
+                                }
+
+                                if (desiredDate <= today) {
+                                    alert("Ngày muốn tiêm phải lớn hơn ngày hiện tại.");
+                                    return false;
+                                }
+
+                                return true;
+                            }
+
+                            document.getElementById("person-info-form").onsubmit = function () {
+                                var numVaccines = 0;
+                                var numCombos = 0;
+                                $('#vaccine-info').find('strong').each(function () {
+                                    var text = $(this).text().toLowerCase();
+                                    if (text.includes('combo')) {
+                                        numCombos++;
+                                    } else {
+                                        numVaccines++;
+                                    }
+                                });
+
+                                console.log('Số lượng vaccine trong giỏ hàng:', numVaccines);
+                                console.log('Số lượng combo trong giỏ hàng:', numCombos);
+
+                                if (numVaccines + numCombos == 0) {
+                                    alert("Giỏ hàng của bạn trống. Vui lòng thêm ít nhất một sản phẩm vào giỏ hàng.");
+                                    return false;
+                                } else if (numVaccines > 4 || numCombos > 1) {
+                                    alert("Bạn chỉ có thể mua tối đa 4 vaccine hoặc 1 combo. Vui lòng xóa sản phẩm dư thừa khỏi giỏ hàng.");
+                                    return false;
+                                }
+
+                                return validateForm();
+                            };
+                        });
+                    </script>
+                }
+
+
+
+            </div>
+            <div class="person-info">
+                <h3>Vui lòng nhập thông tin người tiêm trước</h3>
+                <form id="person-info-form" action="@Url.Action("ChinhSachDieuKien", "GioHang")" method="post" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="name">Họ và tên người được tiêm:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Ngày sinh người được tiêm:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Địa chỉ:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-name">Giới tính: </label>
+                        <select id="sex" name="sex" required>
+                            <option value="F">Nữ</option>
+                            <option value="M">Nam</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-name">Họ tên người liên hệ:</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="relationship">Mối quan hệ:</label>
+                        <select id="relationship" name="relationship" required>
+                            <option value="self">Bản thân</option>
+                            <option value="child">Con</option>
+                            <option value="father">Cha</option>
+                            <option value="mother">Mẹ</option>
+                            <option value="wife">Vợ</option>
+                            <option value="husband">Chồng</option>
+                            <option value="brother">Anh</option>
+                            <option value="sister">Chị</option>
+                            <option value="younger_brother">Em trai</option>
+                            <option value="younger_sister">Em gái</option>
+                            <option value="grandfather">Ông</option>
+                            <option value="grandmother">Bà</option>
+                            <option value="relative">Họ hàng</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="desired-date">Ngày muốn tiêm:</label>
+                        <input type="date" id="desired-date" name="desired-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ma-voucher">Nhập mã voucher(Nếu có)</label>
+                        <input type="text" id="ma-voucher" name="ma-voucher" required>
+                    </div>
+                    <div class="form-group">
+                        @if (ViewBag.MaVaccineList != null)
+                        {
+                            foreach (var maVaccine in ViewBag.MaVaccineList)
+                            {
+                                <input type="hidden" id="maVaccine" name="maVaccineList" value="@maVaccine" readonly />
+                            }
+                        }
+                    </div>
+                    <div class="form-group">
+                        @if (ViewBag.MaComboList != null)
+                        {
+                            foreach (var maCombo in ViewBag.MaComboList)
+                            {
+                                <input type="hidden" id="maCombo" name="maComboList" value="@maCombo" readonly />
+                            }
+                        }
+                    </div>
+                    <input type="hidden" name="step1Completed" value="true" />
+                    <div class="button-container">
+                        <button class="btn btn-primary" type="button" onclick="window.history.back();"><i class="fa fa-arrow-left" aria-hidden="true"></i> <b>Quay lại</b></button>
+                        <button class="btn btn-primary" type="submit" name="action" id="continue-button" value="tiepTuc"><b>Tiếp tục</b> <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 NATHADA</p>
+        </footer>
+    </div>
+</body>
+</html>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

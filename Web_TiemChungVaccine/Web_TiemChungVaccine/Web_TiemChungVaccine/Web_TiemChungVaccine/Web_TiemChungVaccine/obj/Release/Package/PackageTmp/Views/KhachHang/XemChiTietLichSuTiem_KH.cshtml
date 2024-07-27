@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Xem Chi Tiết Đăng Ký Tiêm";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+@using Web_TiemChungVaccine.Models;
+@model NGUOITIEM_DANGKY
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href="~/bootstrap/css/datmua_hieuung.css" rel="stylesheet" />
+<link href="~/bootstrap/css/button_hieuung.css" rel="stylesheet" />
+<link href="~/bootstrap/css/Stylekhungviennd.css" rel="stylesheet" />
+<link href="~/bootstrap/css/StyleTrangCaNhan.css" rel="stylesheet" />
+<style>
+    .justified-text {
+        text-align: justify;
+    }
+</style>
+<font face="Verdana"<a class="text-center"><h1><b>CHI TIẾT ĐĂNG KÝ TIÊM</b></h1></a></font>
+<div class="container">
+    @*<div class="row">
+        <div class="text-center"><h3><b>@Model.ten_vaccine</b></h3></div>
+    </div>*@
+    <div class="row">
+        @*<div class="col-10">
+            <h3><b style="color:red"></b><span><b></b></span></h3><br /><br />
+            <div class="col-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="" style="font-family: Tahoma; font-size: 19px ">
+                <b style="color:red">Mã đăng ký: </b><span>@Model.ma_dangky</span><br /><br />
+                <b style="color:red">Người tiêm: </b><span>@Model.hoten_nguoitiem</span><br /><br />
+                <b style="color:red">Ngày sinh: </b><span>@Model.ngaysinh_nguoitiem</span><br /><br />
+                <b style="color:red">Giơi tính: </b><span>@Model.gioitinh_nguoitiem</span><br /><br />
+                <b style="color:red">Địa chỉ: </b><span>@Model.diachi_nguoitiem</span><br /><br />
+                <b style="color:red">Người liên hệ: </b><span>@Model.hoten_nguoilienhe</span><br /><br />
+                <b style="color:red">Mối quan hệ: </b><span>@Model.moiquanhe_nguoitiem</span><br /><br />
+                <b style="color:red">SĐT người liên hệ: </b><span>@Model.sdt_nguoilienhe</span><br /><br />
+                <b style="color:red">Mã khách hàng: </b><span>@Model.ma_khachhang</span><br /><br />
+                <b style="color:red">Phí lưu kho: </b><span>@Model.phi_luukho</span><br /><br />
+                <b style="color:red">Tổng thanh toán: </b><span>@Model.tongthanhtoan</span><br /><br />
+                <b style="color:red">Ngày đăng ký: </b><span>@Model.ngay_dangky</span><br /><br />
+                <b style="color:red">Ngày muốn tiêm: </b><span>@Model.ngay_muontiem</span><br /><br />
+                <b style="color:red">Mã voucher: </b><span>@Model.ma_voucher</span><br /><br />
+            </div>
+        </div>*@
+
+
+        <table class="customer-table">
+            <tbody>
+                <tr> <th>Mã đăng ký</th> <td><span>@Model.ma_dangky</span></td> </tr>
+                <tr> <th>Người tiêm</th> <td><span>@Model.hoten_nguoitiem</span></td> </tr>
+                <tr> <th>Ngày sinh</th> <td><span>@Model.ngaysinh_nguoitiem.ToString("dd/MM/yyyy")</span></td> </tr>
+                <tr> <th>Giới tính</th> <td><span>@Model.gioitinh_nguoitiem</span></td> </tr>
+                <tr> <th>Địa chỉ</th> <td><span>@Model.diachi_nguoitiem</span></td> </tr>
+                <tr> <th>Người liên hệ</th> <td><span>@Model.hoten_nguoilienhe</span></td> </tr>
+                <tr> <th>Mối quan hệ</th> <td><span>@Model.moiquanhe_nguoitiem</span></td> </tr>
+                <tr> <th>SĐT người liên hệ</th> <td><span>@Model.sdt_nguoilienhe</span></td> </tr>
+                <tr> <th>Mã khách hàng</th> <td><span>@Model.ma_khachhang</span></td> </tr>
+                <tr> <th>Phí lưu kho</th> <td><span>@String.Format("{0:N0} VND", @Model.phi_luukho)</span></td> </tr>
+                <tr> <th>Tổng thanh toán</th> <td><span>@String.Format("{0:N0} VND", @Model.tongthanhtoan)</span></td> </tr>
+                <tr> <th>Ngày đăng ký</th> <td><span>@Model.ngay_dangky.ToString("dd/MM/yyyy")</span></td> </tr>
+                <tr> <th>Ngày muốn tiêm</th> <td><span>@Model.ngay_muontiem.ToString("dd/MM/yyyy")</span></td> </tr>
+                <tr> <th>Mã voucher</th> <td><span>@Model.ma_voucher</span></td> </tr>
+            </tbody>
+        </table>
+        <a href="javascript:history.back()">
+            <button class="button-pill"><b>Đóng</b></button>
+        </a>
+    </div>
+    </div>

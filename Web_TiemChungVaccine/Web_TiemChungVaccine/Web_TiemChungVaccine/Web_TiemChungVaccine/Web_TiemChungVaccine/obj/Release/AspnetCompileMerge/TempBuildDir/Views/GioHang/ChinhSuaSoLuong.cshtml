@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "ChinhSuaSoLuong";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+
+<h2>ChinhSuaSoLuong</h2>
+@model Web_TiemChungVaccine.Models.GioHangViewModel
+
+@{
+    ViewBag.Title = "Chỉnh Sửa Số Lượng";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+
+<h2 style="font: bold; text-align:center">Chỉnh Sửa Số Lượng</h2>
+
+@using (Html.BeginForm("CapNhatSoLuong", "GioHang", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.IdGioHang)
+    <div class="form-group">
+        @Html.LabelFor(model => model.SoLuong)
+        @Html.TextBoxFor(model => model.SoLuong, new { @class = "form-control" })
+    </div>
+    <button style="margin-bottom: 12px" type="submit" class="btn btn-success">Cập Nhật</button>
+}

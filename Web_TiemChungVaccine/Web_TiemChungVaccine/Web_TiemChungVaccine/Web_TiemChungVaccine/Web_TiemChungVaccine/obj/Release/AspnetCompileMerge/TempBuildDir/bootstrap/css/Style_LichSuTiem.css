@@ -1,0 +1,58 @@
+﻿
+.taovien {
+	border-right: 4px solid #dee2e6;
+}
+	.taovien:last-child {
+		border-right: none;
+	}
+.bgtieude {
+	background-color: #395add;
+	color: white;
+	height: 25px;
+	text-align: justify;
+}
+
+.bgtieudechinh {
+	background-color: #d02323;
+	color: white;
+	height: 25px;
+	text-align: justify;
+}
+
+.button-pill {
+	border-radius: 50rem;
+	background-color: red;
+	height: 50px;
+	width: 150px;
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+	float: left;
+}
+
+.text-head {
+	border-radius: 10px;
+	background-color: blue;
+	height: 70px;
+	width: 500px;
+	color: white;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.row.product-group {
+	width: 100%;
+	max-width: 1250px;
+}

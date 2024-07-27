@@ -1,0 +1,51 @@
+﻿.form-group {
+	margin-bottom: 1.5rem;
+	/*text-align:left;
+    color:#000000;*/
+}
+
+.form-control-lg {
+	font-size: 1.25rem;
+	padding: 0.5rem 1rem;
+}
+
+.text-danger {
+	font-weight: bold;
+}
+
+.button-luu {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button-quaylai {
+	display: inline-block;
+	background-color: #008CBA;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button-quaylai-input {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.button-container {
+	text-align: center;
+}

@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Xacthuc";
+}
+<!DOCTYPE html>
+<html lang="en">
+<link href="~/bootstrap/css/Style_XacThuc.css" rel="stylesheet" />
+<head>
+    <meta charset="UTF-8">
+    <title>Xác thực Email</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="~/Images/Email_XacThuc.png" alt="">
+        <div class="content">
+            <header>Xác thực Email</header>
+            <font face="TimesNewRoman" size="4">
+                <p style="text-align:justify; margin-top:5px;">
+                    Chúng tôi đã gửi một email xác nhận đến địa chỉ: <strong>@ViewBag.Email</strong>.</br>
+                    Vui lòng kiểm tra email của bạn và nhấp vào liên kết xác nhận để hoàn tất đăng ký.</br>
+                    Nếu bạn không nhận được email, vui lòng kiểm tra thư mục spam hoặc đăng ký lại.
+                </p>
+            </font>
+            <div class="buttons">
+                <button class="item"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&emr=1&ifkv=AaSxoQxy7PQ0t6ytMxa9YvGwuxe7qQZl0zdWbaJXxZ5WANFuq5BlfTPpT2cVmove6JFZ8Ux7TBBtbw&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1190664244%3A1716325636604419&ddm=0" style="color:white;">Đi tới Gmail</a></button>
+                <a href="@Url.Action("DangKyKH", "KhachHang")" class="item">Đăng ký lại</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

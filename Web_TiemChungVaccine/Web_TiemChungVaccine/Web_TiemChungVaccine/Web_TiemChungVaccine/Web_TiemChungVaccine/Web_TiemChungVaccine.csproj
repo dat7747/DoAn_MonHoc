@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B07A0373-A33B-46F3-98E1-1CEBAC8BD55D}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_TiemChungVaccine</RootNamespace>
+    <AssemblyName>Web_TiemChungVaccine</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Association, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cotur.DataMining.Association.1.2.0\lib\netstandard2.0\Association.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="DataMining, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cotur.DataMining.1.0.4\lib\DataMining.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=7.1.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.7.1.3\lib\net35\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net35\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.6.1.1\lib\net35\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.25.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.25.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.AspNet, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hangfire.AspNet.0.3.0\lib\net45\Hangfire.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.Core, Version=1.8.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hangfire.Core.1.8.14\lib\net46\Hangfire.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.SqlServer, Version=1.8.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hangfire.SqlServer.1.8.14\lib\net451\Hangfire.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.2.2\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.2.2\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.4.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.4.0\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdSharp, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.7.1\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\GioHangController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KhachHangController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Apriori.cs" />
+    <Compile Include="Models\AssociationRule.cs" />
+    <Compile Include="Models\ComboVaccineViewModel.cs" />
+    <Compile Include="Models\CustomerReminder.cs" />
+    <Compile Include="Models\HangfireJobs.cs" />
+    <Compile Include="Models\LichSuTiem.cs" />
+    <Compile Include="Models\MyAuthorizationFilter.cs" />
+    <Compile Include="Models\QL_VACCINE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_VACCINE.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Result.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\Vaccine.cs" />
+    <Compile Include="Models\VaccineOptionViewModel.cs" />
+    <Compile Include="Models\VaccineViewModel.cs" />
+    <Compile Include="Models\GioHangViewModel.cs" />
+    <Compile Include="Models\VoucherViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="bootstrap\css\bootstrap-grid.css" />
+    <Content Include="bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\css\button_hieuung.css" />
+    <Content Include="bootstrap\css\button_luu.css" />
+    <Content Include="bootstrap\css\css_for_dangkymuitiem.css" />
+    <Content Include="bootstrap\css\css_for_pay.css" />
+    <Content Include="bootstrap\css\datmua_hieuung.css" />
+    <Content Include="bootstrap\css\dropdown.css" />
+    <Content Include="bootstrap\css\Footer.css" />
+    <Content Include="bootstrap\css\GD_TongHop.css" />
+    <Content Include="bootstrap\css\Menucap3.css" />
+    <Content Include="bootstrap\css\Repon.css" />
+    <Content Include="bootstrap\css\StyleDKDNKH.css" />
+    <Content Include="bootstrap\css\Stylehead.css" />
+    <Content Include="bootstrap\css\Stylekhungviennd.css" />
+    <Content Include="bootstrap\css\Stylenote.css" />
+    <Content Include="bootstrap\css\StyleSearch.css" />
+    <Content Include="bootstrap\css\StyleText.css" />
+    <Content Include="bootstrap\css\StyleTraCuu.css" />
+    <Content Include="bootstrap\css\StyleTrangCaNhan.css" />
+    <Content Include="bootstrap\css\Style_LichSuTiem.css" />
+    <Content Include="bootstrap\css\Style_QL.css" />
+    <Content Include="bootstrap\css\Style_Select.css" />
+    <Content Include="bootstrap\css\Style_XacThuc.css" />
+    <Content Include="bootstrap\css\TimKiem_Search.css" />
+    <Content Include="bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\jquery-3.3.1.min.js" />
+    <Content Include="Content\css\select2.css" />
+    <Content Include="Content\css\select2.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\anhbg1.jpg" />
+    <Content Include="Images\anhbg2.jpg" />
+    <Content Include="Images\anhbg3.jpg" />
+    <Content Include="Images\anhbg4.png" />
+    <Content Include="Images\AnhNV1.png" />
+    <Content Include="Images\AnhVC010.jpg" />
+    <Content Include="Images\AnhVC1.jpg" />
+    <Content Include="Images\AnhVC10.jpg" />
+    <Content Include="Images\AnhVC11.jpg" />
+    <Content Include="Images\AnhVC12.jpg" />
+    <Content Include="Images\AnhVC13.jpg" />
+    <Content Include="Images\AnhVC14.jpg" />
+    <Content Include="Images\AnhVC15.jpg" />
+    <Content Include="Images\AnhVC16.jpg" />
+    <Content Include="Images\AnhVC17.jpg" />
+    <Content Include="Images\AnhVC18.jpg" />
+    <Content Include="Images\AnhVC19.jpg" />
+    <Content Include="Images\AnhVC2.jpg" />
+    <Content Include="Images\AnhVC20.jpg" />
+    <Content Include="Images\AnhVC21.jpg" />
+    <Content Include="Images\AnhVC22.jpg" />
+    <Content Include="Images\AnhVC23.jpg" />
+    <Content Include="Images\AnhVC24.jpg" />
+    <Content Include="Images\AnhVC25.jpg" />
+    <Content Include="Images\AnhVC3.jpg" />
+    <Content Include="Images\AnhVC4.jpg" />
+    <Content Include="Images\AnhVC5.jpg" />
+    <Content Include="Images\AnhVC6.jpg" />
+    <Content Include="Images\AnhVC7.jpg" />
+    <Content Include="Images\AnhVC8.jpg" />
+    <Content Include="Images\AnhVC9.jpg" />
+    <Content Include="Images\bangtiem1.png" />
+    <Content Include="Images\bangtiem2.png" />
+    <Content Include="Images\bangtiem3.png" />
+    <Content Include="Images\bangtiem4.png" />
+    <Content Include="Images\bangtiem5.png" />
+    <Content Include="Images\bangtiem6.png" />
+    <Content Include="Images\bangtiem7.png" />
+    <Content Include="Images\benh1.jpg" />
+    <Content Include="Images\benh10.jpg" />
+    <Content Include="Images\benh2.jpg" />
+    <Content Include="Images\benh3.jpg" />
+    <Content Include="Images\benh4.jpg" />
+    <Content Include="Images\benh5.jpg" />
+    <Content Include="Images\benh6.jpg" />
+    <Content Include="Images\benh7.jpg" />
+    <Content Include="Images\benh8.jpg" />
+    <Content Include="Images\benh9.jpg" />
+    <Content Include="Images\bgchinh1.jpg" />
+    <Content Include="Images\bgchinh2.jpg" />
+    <Content Include="Images\bgchinh3.jpg" />
+    <Content Include="Images\bgdau_giaodienchinh.jpg" />
+    <Content Include="Images\bg_login.jpg" />
+    <Content Include="Images\cachthuc1.jpg" />
+    <Content Include="Images\cachthuc2.jpg" />
+    <Content Include="Images\camnangtiemchung.png" />
+    <Content Include="Images\chuongthongbao.png" />
+    <Content Include="Images\Email_XacThuc.png" />
+    <Content Include="Images\fb_logo.png" />
+    <Content Include="Images\giohang.jpg" />
+    <Content Include="Images\giohang.png" />
+    <Content Include="Images\Gioithieu1.png" />
+    <Content Include="Images\Gioithieu2.png" />
+    <Content Include="Images\Gioithieu3.png" />
+    <Content Include="Images\Gioithieu4.png" />
+    <Content Include="Images\hinhtiemnglon1.jpg.png" />
+    <Content Include="Images\hinhtiemnglon2.jpg" />
+    <Content Include="Images\lichsutiem_capnhat.png" />
+    <Content Include="Images\lichsutiem_xemchitiet.png" />
+    <Content Include="Images\logobg_webvaccine.png" />
+    <Content Include="Images\logoxanh.png" />
+    <Content Include="Images\logoxanhduong.png" />
+    <Content Include="Images\logo_coVietNam.png" />
+    <Content Include="Images\logo_voucher.png" />
+    <Content Include="Images\logo_webvaccine.png" />
+    <Content Include="Images\nganhangtragop.png" />
+    <Content Include="Images\OCB Bank_logo.png" />
+    <Content Include="Images\Pepsi.jpg" />
+    <Content Include="Images\tablet-with-blue-background-that-says-technology_1158441-788.jpg" />
+    <Content Include="Images\time_lichsutiemchung.png" />
+    <Content Include="Images\TPBank_logo.png" />
+    <Content Include="Images\vaccine_xemchitiet.png" />
+    <Content Include="Images\VietcomBank_logo.png" />
+    <Content Include="Images\youtube_logo.png" />
+    <Content Include="Scripts\i18n\af.js" />
+    <Content Include="Scripts\i18n\ar.js" />
+    <Content Include="Scripts\i18n\az.js" />
+    <Content Include="Scripts\i18n\bg.js" />
+    <Content Include="Scripts\i18n\bn.js" />
+    <Content Include="Scripts\i18n\bs.js" />
+    <Content Include="Scripts\i18n\ca.js" />
+    <Content Include="Scripts\i18n\cs.js" />
+    <Content Include="Scripts\i18n\da.js" />
+    <Content Include="Scripts\i18n\de.js" />
+    <Content Include="Scripts\i18n\dsb.js" />
+    <Content Include="Scripts\i18n\el.js" />
+    <Content Include="Scripts\i18n\en.js" />
+    <Content Include="Scripts\i18n\es.js" />
+    <Content Include="Scripts\i18n\et.js" />
+    <Content Include="Scripts\i18n\eu.js" />
+    <Content Include="Scripts\i18n\fa.js" />
+    <Content Include="Scripts\i18n\fi.js" />
+    <Content Include="Scripts\i18n\fr.js" />
+    <Content Include="Scripts\i18n\gl.js" />
+    <Content Include="Scripts\i18n\he.js" />
+    <Content Include="Scripts\i18n\hi.js" />
+    <Content Include="Scripts\i18n\hr.js" />
+    <Content Include="Scripts\i18n\hsb.js" />
+    <Content Include="Scripts\i18n\hu.js" />
+    <Content Include="Scripts\i18n\hy.js" />
+    <Content Include="Scripts\i18n\id.js" />
+    <Content Include="Scripts\i18n\is.js" />
+    <Content Include="Scripts\i18n\it.js" />
+    <Content Include="Scripts\i18n\ja.js" />
+    <Content Include="Scripts\i18n\ka.js" />
+    <Content Include="Scripts\i18n\km.js" />
+    <Content Include="Scripts\i18n\ko.js" />
+    <Content Include="Scripts\i18n\lt.js" />
+    <Content Include="Scripts\i18n\lv.js" />
+    <Content Include="Scripts\i18n\mk.js" />
+    <Content Include="Scripts\i18n\ms.js" />
+    <Content Include="Scripts\i18n\nb.js" />
+    <Content Include="Scripts\i18n\ne.js" />
+    <Content Include="Scripts\i18n\nl.js" />
+    <Content Include="Scripts\i18n\pl.js" />
+    <Content Include="Scripts\i18n\ps.js" />
+    <Content Include="Scripts\i18n\pt-BR.js" />
+    <Content Include="Scripts\i18n\pt.js" />
+    <Content Include="Scripts\i18n\ro.js" />
+    <Content Include="Scripts\i18n\ru.js" />
+    <Content Include="Scripts\i18n\sk.js" />
+    <Content Include="Scripts\i18n\sl.js" />
+    <Content Include="Scripts\i18n\sq.js" />
+    <Content Include="Scripts\i18n\sr-Cyrl.js" />
+    <Content Include="Scripts\i18n\sr.js" />
+    <Content Include="Scripts\i18n\sv.js" />
+    <Content Include="Scripts\i18n\th.js" />
+    <Content Include="Scripts\i18n\tk.js" />
+    <Content Include="Scripts\i18n\tr.js" />
+    <Content Include="Scripts\i18n\uk.js" />
+    <Content Include="Scripts\i18n\vi.js" />
+    <Content Include="Scripts\i18n\zh-CN.js" />
+    <Content Include="Scripts\i18n\zh-TW.js" />
+    <Content Include="Models\QL_VACCINE.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QL_VACCINE.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\tiemchungnathada - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - FTP1.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - FTP2.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\tiemchungnathada - Web Deploy3.pubxml" />
+    <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\select2.js" />
+    <Content Include="Scripts\select2.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\Chinhsachbaomat.cshtml" />
+    <Content Include="Views\Home\Nhungdieucanbiet.cshtml" />
+    <Content Include="Views\Home\Visaonguoilonnentiemchung.cshtml" />
+    <Content Include="Views\Home\Quytrinhtiemchung.cshtml" />
+    <Content Include="Views\Home\Camnangtiemchung.cshtml" />
+    <Content Include="Views\Home\Tragop.cshtml" />
+    <Content Include="Views\Home\Cauhoithuonggap.cshtml" />
+    <Content Include="Views\Home\Tiemchungtheoyeucau.cshtml" />
+    <Content Include="Views\Home\Lichtiemchungnguoilon.cshtml" />
+    <Content Include="Views\Home\Lichtiemchungtreem.cshtml" />
+    <Content Include="Views\KhachHang\Chinhsachbaomat.cshtml" />
+    <Content Include="Views\KhachHang\Nhungdieucanbiet.cshtml" />
+    <Content Include="Views\KhachHang\Visaonguoilonnentiemchung.cshtml" />
+    <Content Include="Views\KhachHang\Quytrinhtiemchung.cshtml" />
+    <Content Include="Views\KhachHang\Camnangtiemchung.cshtml" />
+    <Content Include="Views\KhachHang\Tragop.cshtml" />
+    <Content Include="Views\KhachHang\Cauhoithuonggap.cshtml" />
+    <Content Include="Views\KhachHang\Tiemchungtheoyeucau.cshtml" />
+    <Content Include="Views\KhachHang\Lichtiemchungnguoilon.cshtml" />
+    <Content Include="Views\KhachHang\Lichtiemchungtreem.cshtml" />
+    <Content Include="Views\Home\IndexCombo.cshtml" />
+    <Content Include="Views\KhachHang\Voucher.cshtml" />
+    <Content Include="Views\Home\XemChiTietCombo.cshtml" />
+    <Content Include="Views\KhachHang\IndexCombo.cshtml" />
+    <Content Include="Views\KhachHang\XemChiTietCombo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap\js\bootstrap.js.map" />
+    <Content Include="bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Giaodientrangchu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\XemChiTietVaccine.cshtml" />
+    <Content Include="Views\KhachHang\DangNhapKH.cshtml" />
+    <Content Include="Views\Shared\GiaodientrangchuKH.cshtml" />
+    <Content Include="Views\KhachHang\DangKyKH.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\KhachHang\TrangCaNhan.cshtml" />
+    <Content Include="Views\KhachHang\Doi_MatKhau_KH.cshtml" />
+    <Content Include="Views\Home\Gioithieu.cshtml" />
+    <Content Include="Views\KhachHang\XacThuc.cshtml" />
+    <Content Include="Views\KhachHang\ConfirmEmail.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\GioHang\Index.cshtml" />
+    <Content Include="Views\Shared\GiaodientrangchuGioHang.cshtml" />
+    <Content Include="Views\GioHang\ChinhSuaSoLuong.cshtml" />
+    <Content Include="Views\GioHang\DangKyMuiTiem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\GioHang\DieuKhoanThanhToan.cshtml" />
+    <Content Include="Views\GioHang\ChinhSachDieuKien.cshtml" />
+    <Content Include="Views\KhachHang\IndexKhachHang.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\GioHang\Buoc3.cshtml" />
+    <Content Include="Views\KhachHang\XemChiTietVaccine_KH.cshtml" />
+    <Content Include="Views\KhachHang\ThongTinDangKyTiemChung.cshtml" />
+    <Content Include="Views\KhachHang\Sua_ThongTinCaNhan_KH.cshtml" />
+    <Content Include="Views\KhachHang\XemChiTietLichSuTiem_KH.cshtml" />
+    <Content Include="Views\KhachHang\Sua_ThongTinLichTiem_KH.cshtml" />
+    <Content Include="Views\Home\BangGiaTiemChung.cshtml" />
+    <Content Include="Views\KhachHang\LichSuTiemVC.cshtml" />
+    <Content Include="Views\KhachHang\Gioithieu.cshtml" />
+    <Content Include="Views\KhachHang\BangGiaTiemChung.cshtml" />
+    <Content Include="Views\Shared\GiaodienTraCuu.cshtml" />
+    <Content Include="Views\Home\IndexNguoiDangKyTiem.cshtml" />
+    <Content Include="Views\Home\IndexLichSuTiem.cshtml" />
+    <Content Include="Views\Shared\GiaodienTraCuuThu2.cshtml" />
+    <Content Include="Views\Home\XemChiTietThongTinDangKyTiem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\QL_VACCINE.dbml.layout">
+      <DependentUpon>QL_VACCINE.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52211</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52211/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

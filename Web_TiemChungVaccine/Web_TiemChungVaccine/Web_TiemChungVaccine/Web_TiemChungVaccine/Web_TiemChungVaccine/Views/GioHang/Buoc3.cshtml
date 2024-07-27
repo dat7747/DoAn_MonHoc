@@ -1,0 +1,125 @@
+﻿@{
+    ViewBag.Title = "Buoc3";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+@model IEnumerable<Web_TiemChungVaccine.Models.VACCINE>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán vắc xin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        .info {
+            margin-bottom: 20px;
+        }
+
+        .payment-methods {
+            margin-top: 20px;
+        }
+
+            .payment-methods p {
+                color: red;
+            }
+
+        .step-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .step {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            margin: 0 5px;
+        }
+
+            .step.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        /*ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            ul li {
+                background: #f9f9f9;
+                margin: 5px 0;
+                padding: 10px;
+                border: 1px solid #ddd;
+            }*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="step-bar">
+            <div class="step @(ViewBag.CurrentStep == 1 ? "active" : "")">Bước 1</div>
+            <div class="step @(ViewBag.CurrentStep == 2 ? "active" : "")">Bước 2</div>
+            <div class="step @(ViewBag.CurrentStep == 3 ? "active" : "")">Bước 3</div>
+        </div>
+        <h1>QUÝ KHÁCH VUI LÒNG THANH TOÁN THEO</h1>
+        <div class="info" style="font-family: 'Times New Roman', serif; font-size: 22px;">
+            <p>Mã đặt mua: <b style="font-weight: bold; color: red;">@ViewBag.MaDangKy</b></p>
+            <p>Tổng số tiền cần thanh toán: <b style="font-weight: bold; color: red;">@String.Format("{0:n0}", ViewBag.TongThanhToan) VND</b></p>
+        </div>
+
+        <h2><b>Hướng dẫn thanh toán</b></h2>
+
+        <div class="payment-methods" style="font-family: 'Times New Roman', serif; font-size: 22px;">
+            <p>Quý khách thanh toán bằng hình thức chuyển khoản như sau:</p>
+            <p>Vui lòng chuyển khoản số tiền <span><b style="font-weight: bold; color: red;">@String.Format("{0:C}", ViewBag.TongThanhToan)</b></span> với nội dung như sau:</p>
+            <h4 style="font-weight: bold; color: red;">@ViewBag.SoDienThoaiTaiKhoan _ @ViewBag.MaDangKy</h4>
+        </div>
+        <div class="container" style="font-family: 'Times New Roman', serif; font-size: 20px; color:black;">
+            <div class="row">
+                <div class="col-4" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="~/Images/VietcomBank_logo.png" style="max-width: 100%; height: auto;" />
+                    <b style="margin-bottom: 10px;">1071815855</br>HE THONG TIEM CHUNG NATHADA</b>
+                </div>
+                <div class="col-4" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="~/Images/TPBank_logo.png" style="max-width: 100%; height: auto;" />
+                    <b style="margin-bottom: 10px;">19190992002</br>HE THONG TIEM CHUNG NATHADA</b>
+                </div>
+                <div class="col-4" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="~/Images/OCB Bank_logo.png" style="max-width: 100%; height: auto;" />
+                    <b style="margin-bottom: 10px;">0015640034552012</br>HE THONG TIEM CHUNG NATHADA</b>
+                </div>
+            </div>
+        </div>
+        <h2>VACCINE CÓ THỂ BẠN QUAN TÂM</h2>
+        <div class="row">
+            <div class="row product-group p-3 bg-light">
+                @foreach (var vaccine in ViewBag.RecommendedVaccines)
+                {
+                    <div class="col-4 p-3">
+                        <a href="/Home/XemChiTietVaccine/@vaccine.ma_vaccine" style="text-decoration: none;">
+                            <div class="card-container text-center">
+                                <div class="card">
+                                    <div style="box-shadow: 5px 5px 5px 2px #999999; height: 380px; position: relative;">
+                                        <img class="hover-row card-img-top" src="~/Images/@vaccine.anh_vaccine" height="200" />
+                                        <div class="card-body">
+                                            <h6 class="card-title text-center"><b>@vaccine.ten_vaccine (@vaccine.nguongoc)</b></h6>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="/KhachHang/XemChiTietVaccine/@vaccine.ma_vaccine" style="position: absolute; bottom: 5%;right:10%;"><button class="btn btn-primary mt-3" style="width:300px;"><img src="~/Images/vaccine_xemchitiet.png" width="30px" /><b>XEM CHI TIẾT</b></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

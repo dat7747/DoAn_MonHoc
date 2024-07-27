@@ -1,0 +1,111 @@
+﻿.menu-cap3 li .menu-sub{
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	left: ;
+	width: 200px;
+	box-shadow: 0px 1px 8px -4px #333;
+	background-color:#333;
+	/*display: none;*/
+        opacity: 0;
+	visibility: hidden;
+	top: 150%;
+	transition: all 0.5s ease-in-out;
+}
+.menu-cap3 li .menu-sub ul{
+	top: 0;
+	/*left: 100%;*/
+	left: 150%;
+}
+.menu-cap3 li:hover > .menu-sub{
+	/*display: block;*/
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.menu-cap3 li .menu-sub li:hover > ul{
+	top: 0;
+	left: 100%;
+}
+*{margin:0;padding:0;}
+.clearfix:before,.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.menu-cap3{
+	width: 100%;
+	margin: 0 auto;
+	list-style: none;
+	background-color: #fff;
+}
+.menu-cap3 > li{
+	float: left;
+}
+.menu-cap3 > li a{
+	font-size: 12px;
+	display: block;
+	padding: 18px 23px;
+	text-decoration: none;
+	/*border-right: 2px solid #e0caca;*/
+	color: #000000;
+}
+.menu-cap3 > li:last-child a{
+	border-right: 0;
+    color: #fff;
+}
+.menu-cap3 li{
+	position: relative;
+    color: #fff;
+}
+.menu-cap3 li .menu-sub{
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 300px;
+	box-shadow: 0px 1px 8px -4px #333;
+	background-color: #00C;
+	/*display: none;*/
+	opacity: 0;
+	visibility: hidden;
+	top: 150%;
+	transition: all 0.5s ease-in-out;
+}
+.menu-cap3 li .menu-sub ul{
+	top: 0;
+	/*left: 100%;*/
+	left: 150%;
+}
+.menu-cap3 li:hover > .menu-sub{
+	/*display: block;*/
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.menu-cap3 li .menu-sub li:hover > ul{
+	top: 0;
+	left: 100%;
+}
+.menu-cap3 li:hover > a {
+	background: #00C;
+}
+.menu-cap3 > li a:hover {
+    color: #fff; 
+}
+.menu-cap3 li:hover > a,
+.menu-cap3 li:hover .menu-sub li a {
+    color: #fff; 
+}
+.trangchu1 a b {
+  color:#fff;
+}
+.trangchu {
+  background-color: #00C;
+}
+.menu-level3 {
+  border-top: 2px solid #7374f6;
+}
+.menu-cap3 > li {
+  white-space: nowrap;
+}

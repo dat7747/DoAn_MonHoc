@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Trang cá nhân";
+    Layout = "~/Views/Shared/GiaodientrangchuGioHang.cshtml";
+}
+@using Web_TiemChungVaccine.Models
+@model List<KHACHHANG>
+<link href="~/bootstrap/css/button_hieuung.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width" />
+<title>@ViewBag.Title</title>
+<meta charset="utf-8" />
+<link href="~/content/bootstrap.css" rel="stylesheet" />
+<link href="~/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet" />
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/bootstrap/css/StyleSearch.css" rel="stylesheet" />
+<link href="~/bootstrap/css/Footer.css" rel="stylesheet" />
+<link href="~/bootstrap/css/button_luu.css" rel="stylesheet" />
+<link href="~/bootstrap/css/StyleTrangCaNhan.css" rel="stylesheet" />
+<style>
+    .dropdown-menu {
+        width: 300px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .dropdown-item-container {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-item {
+        text-align: right;
+        font-weight: bold;
+        padding: 10px;
+    }
+</style>
+
+<div class="container-fluid">
+    <a href="javascript:history.back()">
+        <button class="button-pill"><b>Trở lại</b></button>
+    </a>
+    <h2 style="text-align:center; margin-bottom:15px;" class="text-head"><b>Thông Tin Cá Nhân</b></h2>
+
+    <div class="container">
+        <table class="customer-table">
+            <tbody>
+                @foreach (var t in Model)
+                {
+                    <tr>
+                        <th>Họ Tên</th>
+                        <td><span id="hoten">@t.hoten_khachhang</span></td>
+                    </tr>
+                    <tr>
+                        <th>Ngày sinh</th>
+                        <td><span id="ngaysinh"></span></td>
+                    </tr>
+                    <tr>
+                        <th>SĐT</th>
+                        <td><span>@t.sdt_khachhang</span></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><span>@t.email_khachhang</span></td>
+                    </tr>
+                    <tr>
+                        <th>Điểm khách hàng thân thiết</th>
+                        <td><span>@t.diemthanthiet</span></td>
+                    </tr>
+                    <tr>
+                        <th>Giới Tính</th>
+                        <td><span id="gioitinh">@t.gioitinh_khachhang</span></td>
+                    </tr>
+                    <script>
+            // Lấy ngày sinh từ dữ liệu
+            var ngaySinh = "@t.ngaysinh_khachhang.";
+
+            // Chuyển đổi ngày sinh thành đối tượng Date
+            var date = new Date(ngaySinh);
+
+            // Lấy thông tin ngày, tháng, năm
+            var ngay = date.getDate();
+            var thang = date.getMonth() + 1; // Month index trong JavaScript là từ 0 đến 11, nên cần +1
+            var nam = date.getFullYear();
+
+            // Định dạng ngày/tháng/năm
+            var ngayThangNam = ngay + "/" + thang + "/" + nam;
+
+            // Gán giá trị định dạng vào phần tử HTML
+            document.getElementById("ngaysinh").textContent = ngayThangNam;
+                    </script>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row" style="text-align: center; font-weight: bold; font-size: 22px; margin-bottom: 20px; margin-top: 20px; ">
+        @foreach (var s in Model)
+        {
+            <div class="col-6">
+                <a href="/KhachHang/Sua_ThongTinCaNhan_KH/@s.ma_khachhang">
+                    <center><button class="codepro-custom-btn codepro-btn-12"><span>Sửa</span><span>Thông tin</span></button></center>
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="/KhachHang/Doi_MatKhau_KH/@s.ma_khachhang">
+                    <center><button class="codepro-custom-btn codepro-btn-12"><span>Đổi</span><span>Mật khẩu</span></button></center>
+                </a>
+            </div>
+        }
+    </div>
+
+</div>
+<script>
+    const button = document.querySelector(".button");
+    button.addEventListener("click", (e) => {
+        e.preventDefault;
+        button.classList.add("animate");
+        setTimeout(() => {
+            button.classList.remove("animate");
+        }, 600);
+    }); const button = document.querySelector(".button");
+    button.addEventListener("click", (e) => {
+        e.preventDefault;
+        button.classList.add("animate");
+        setTimeout(() => {
+            button.classList.remove("animate");
+        }, 600);
+    });
+</script>
+@*<script src="~/bootstrap/js/bootstrap.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>*@
+<script src="~/bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+

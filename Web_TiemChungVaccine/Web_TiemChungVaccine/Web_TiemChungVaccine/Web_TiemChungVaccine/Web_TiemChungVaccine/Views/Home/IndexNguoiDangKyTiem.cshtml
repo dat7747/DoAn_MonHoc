@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Thông tin đăng ký tiêm chủng vaccine";
+    Layout = "~/Views/Shared/GiaodienTraCuu.cshtml";
+}
+
+@using Web_TiemChungVaccine.Models
+@model List<NGUOITIEM_DANGKY>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<link href="~/bootstrap/css/Stylehead.css" rel="stylesheet" />
+<link href="~/bootstrap/css/Style_LichSuTiem.css" rel="stylesheet" />
+<div class="row text-center">
+    <h2 style="text-align:center; margin-bottom:15px;" class="text-head">
+        <i class="" style="margin-right: 10px;"></i>
+        <b>ĐĂNG KÝ TIÊM CHỦNG</b>
+    </h2>
+    <div class="container" style="display: flex; justify-content: center;">
+        @if (Model != null && Model.Count > 0)
+        {
+            <div class="row ">
+                <div class="row product-group p-3 bg-light">
+                    @foreach (var s in Model)
+                    {
+                        <div class="row">
+                            <div class="col-12 p-3">
+                                <a style="text-decoration: none;">
+                                    <div class="card-container d-flex">
+                                        <div class="card w-100">
+                                            <div class="row align-items-center" style="box-shadow: 5px 5px 5px 2px #999999; height: 200px; position: relative;">
+                                                <div class="row" style="text-align:center;">
+                                                    <div class="col-2 card-body">
+                                                        <h6 class="card-title text-center bgtieudechinh"><b>Mã đăng ký</b></h6>
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@s.ma_dangky</b></h6>
+                                                    </div>
+                                                    <div class="col-2 card-body">
+                                                        <h6 class="card-title text-center bgtieude"><b>Họ tên người tiêm</b></h6>
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@s.hoten_nguoitiem</b></h6>
+                                                    </div>
+                                                    <div class="col-2 card-body">
+                                                        <h6 class="card-title text-center bgtieude"><b>Ngày sinh</b></h6>
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@s.ngaysinh_nguoitiem.ToString("dd/MM/yyyy")</b></h6>
+                                                    </div>
+                                                    <div class="col-2 card-body">
+                                                        <h6 class="card-title text-center bgtieude"><b>Ngày đăng ký</b></h6>
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@s.ngay_dangky.ToString("dd/MM/yyyy")</b></h6>
+                                                    </div>
+                                                    <div class="col-2 card-body">
+                                                        <h6 class="card-title text-center bgtieude"><b>Ngày muốn tiêm</b></h6>
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@s.ngay_muontiem.ToString("dd/MM/yyyy")</b></h6>
+                                                    </div>
+                                                    <div class="col-2 card-body"> 
+                                                        <h6 class="card-title text-center bgtieude" style=""><b>Tổng thanh toán</b></h6> 
+                                                        <h6 class="card-title text-center" style="color:black;"><b>@String.Format("{0:N0} VND", @s.tongthanhtoan)</b></h6> 
+                                                    </div>
+                                                </div>
+                                                <div class="card-text">
+                                                    <a href="XemChiTietThongTinDangKyTiem/@s.ma_dangky" style="position: center; bottom: 5%;right:10%;"><button class="btn btn-primary mt-3" style="width:300px;"><img src="~/Images/lichsutiem_xemchitiet.png" width="30px" /><b>XEM CHI TIẾT</b></button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-12" style="margin-top: 50px; margin-bottom: 50px;">
+                    <p style="font-family: 'Times New Roman', serif; font-size: 35px;">Không có dữ liệu.</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>

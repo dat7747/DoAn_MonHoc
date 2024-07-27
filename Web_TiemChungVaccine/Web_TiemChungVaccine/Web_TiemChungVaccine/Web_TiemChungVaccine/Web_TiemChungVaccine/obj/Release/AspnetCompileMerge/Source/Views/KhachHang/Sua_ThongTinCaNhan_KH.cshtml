@@ -1,0 +1,192 @@
+﻿@model Web_TiemChungVaccine.Models.KHACHHANG
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thay đổi thông tin khách hàng</title>
+</head>
+<style>
+    .form-group {
+        margin-bottom: 1.5rem;
+        /*text-align:left;
+        color:#000000;*/
+    }
+
+    .form-control-lg {
+        font-size: 1.25rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .text-danger {
+        font-weight: bold;
+    }
+
+    .button-luu {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .button-quaylai {
+        display: inline-block;
+        background-color: #008CBA;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .button-quaylai-input {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+</style>
+<body style="background-image:url(/Images/bg_login.jpg); background-size:cover; font-size:16px;color:white">
+    @using (Html.BeginForm())
+    {
+        <div id="Wrapper">
+            @Html.AntiForgeryToken()
+            <div class="form-horizontal" id="form-luu">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ma_khachhang)
+
+                <center>
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+                        <div class="card shadow-lg" style="width: 600px;">
+                            <div class="card-body">
+                                <h2 class="text-center mb-4 text-primary">Thông tin khách hàng</h2> <hr style="border-color: blue; border-width: 3px;">
+                                                                                                    <form>
+                                                                                                        <div class="form-group" style="color:#000000; text-align:left;">
+                                                                                                            <label for="hoten_khachhang" class="font-weight-bold">Họ và tên:</label>
+                                                                                                            @Html.TextBoxFor(model => model.hoten_khachhang, new { @class = "form-control", @id = "hoten_khachhang", @placeholder = "Nhập họ và tên", @style = "height: 60px; font-size: 20px; width: 100%;" })
+                                                                                                            @Html.ValidationMessageFor(model => model.hoten_khachhang, "", new { @class = "text-danger", @id = "hoten_khachhang-error" })
+                                                                                                        </div>
+                                                                                                        <div class="form-group" style="color:#000000; text-align:left;">
+                                                                                                            <label for="sdt_khachhang" class="font-weight-bold">Số điện thoại:</label>
+                                                                                                            @Html.TextBoxFor(model => model.sdt_khachhang, new { @class = "form-control", @id = "sdt_khachhang", @placeholder = "Nhập số điện thoại", @style = "height: 60px; font-size: 20px; width: 100%;" })
+                                                                                                            @Html.ValidationMessageFor(model => model.sdt_khachhang, "", new { @class = "text-danger", @id = "sdt_khachhang-error" })
+                                                                                                        </div>
+                                                                                                        <div class="form-group" style="color:#000000; text-align:left;">
+                                                                                                            <label for="ngaysinh_khachhang" class="font-weight-bold">Ngày sinh:</label>
+                                                                                                            @Html.TextBoxFor(model => model.ngaysinh_khachhang, "{0:yyyy-MM-dd}", new { @class = "form-control form-control-lg", @id = "ngaysinh_khachhang", @type = "date" })
+                                                                                                            @Html.ValidationMessageFor(model => model.ngaysinh_khachhang, "", new { @class = "text-danger", @id = "ngaysinh_khachhang-error" })
+                                                                                                        </div>
+
+                                                                                                        <div class="form-group" style="color:#000000; text-align:left;">
+                                                                                                            <label for="gioitinh_khachhang" class="font-weight-bold">Giới tính:</label>
+                                                                                                            @Html.DropDownListFor(model => model.gioitinh_khachhang, new List<SelectListItem>
+                                                                                                            {
+                                                                                                                new SelectListItem { Text = "Nam", Value = "Nam" },
+                                                                                                                new SelectListItem { Text = "Nữ", Value = "Nữ" },
+                                                                                                                new SelectListItem { Text = "Khác", Value = "Khác" }
+                                                                                                            }, new { @class = "form-control form-control-lg", @id = "gioitinh_khachhang" })
+                                                                                                            @Html.ValidationMessageFor(model => model.gioitinh_khachhang, "", new { @class = "text-danger", @id = "gioitinh_khachhang-error" })
+                                                                                                        </div>
+
+                                                                                                        <div class="checkError">
+                                                                                                            @Html.ValidationSummary()
+                                                                                                        </div>
+                                                                                                        <div class="form-group">
+                                                                                                            <div class="col-md-offset-2 col-md-10">
+                                                                                                                <input type="submit" value="Lưu" class="button-luu" style="width: 30%; height: 30px;" />
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <br />
+                                                                                                        <div class="button-container">
+                                                                                                            <a href="javascript:history.back()" class="button-quaylai">
+                                                                                                                <input type="button" value="Quay Lại" class="button-quaylai-input" />
+                                                                                                            </a>
+                                                                                                        </div>
+                                                                                                        <script>
+
+                                                                                                            document.querySelector('form').addEventListener('submit', function (event) {
+                                                                                                                // Lấy giá trị của các trường bắt buộc
+                                                                                                                var hoTen = document.getElementById('hoten_khachhang').value.trim();
+                                                                                                                var sdt = document.getElementById('sdt_khachhang').value.trim();
+                                                                                                                var ngaySinh = document.getElementById('ngaysinh_khachhang').value.trim();
+                                                                                                                var gioiTinh = document.getElementById('gioitinh_khachhang').value;
+
+                                                                                                                // Kiểm tra xem các trường bắt buộc đã được nhập đầy đủ chưa
+                                                                                                                if (hoTen === '' || sdt === '' || ngaySinh === '' || gioiTinh === '') {
+                                                                                                                    // Tạo và hiển thị toast thông báo lỗi
+                                                                                                                    showToast('Vui lòng nhập đầy đủ thông tin.', '#dc3545');
+                                                                                                                    event.preventDefault();
+                                                                                                                } else if (sdt.length < 10 || sdt.length > 11) {
+                                                                                                                    // Tạo và hiển thị toast thông báo lỗi nếu số điện thoại không hợp lệ
+                                                                                                                    showToast('Số điện thoại phải có từ 10 đến 11 chữ số.', '#dc3545');
+                                                                                                                    event.preventDefault();
+                                                                                                                } else {
+                                                                                                                    // Kiểm tra xem ngày sinh có hợp lệ không
+                                                                                                                    var currentDate = new Date();
+                                                                                                                    var birthDate = new Date(ngaySinh);
+                                                                                                                    if (birthDate > currentDate) {
+                                                                                                                        // Tạo và hiển thị toast thông báo lỗi
+                                                                                                                        showToast('Ngày sinh phải nhỏ hơn ngày hiện tại.', '#dc3545');
+                                                                                                                        event.preventDefault();
+                                                                                                                    } else {
+                                                                                                                        // Tạo và hiển thị toast thông báo thành công
+                                                                                                                        showToast('Thay đổi thông tin cá nhân thành công', '#28a745');
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            });
+
+                                                                                                            function showToast(message, backgroundColor) {
+                                                                                                                var toastElement = document.createElement('div');
+                                                                                                                toastElement.className = 'toast show';
+                                                                                                                toastElement.style.position = 'fixed';
+                                                                                                                toastElement.style.top = '20px';
+                                                                                                                toastElement.style.right = '20px';
+                                                                                                                toastElement.style.backgroundColor = backgroundColor;
+                                                                                                                toastElement.style.color = '#fff';
+                                                                                                                toastElement.style.padding = '10px 20px';
+                                                                                                                toastElement.style.borderRadius = '5px';
+                                                                                                                toastElement.style.zIndex = '9999';
+                                                                                                                toastElement.innerHTML = '<i class="fas fa-' + (backgroundColor === '#dc3545' ? 'times-circle' : 'check-circle') + '"></i> ' + message;
+                                                                                                                document.body.appendChild(toastElement);
+
+                                                                                                                setTimeout(function () {
+                                                                                                                    toastElement.remove();
+                                                                                                                }, 5000);
+                                                                                                            }
+
+                                                                                                        </script>
+                                                                                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+                <br />
+
+            </div>
+        </div>
+    }
+</body>
+</html>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

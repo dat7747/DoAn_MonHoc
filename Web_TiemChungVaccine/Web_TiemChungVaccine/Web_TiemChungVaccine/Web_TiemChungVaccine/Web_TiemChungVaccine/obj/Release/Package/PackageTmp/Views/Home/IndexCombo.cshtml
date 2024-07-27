@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Gói Combo Vaccine NATHADA";
+    Layout = "~/Views/Shared/Giaodientrangchu.cshtml";
+}
+
+@using Web_TiemChungVaccine.Models;
+@model List<CHITIET_COMBO_VACCXINE>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<link href="~/bootstrap/css/Stylehead.css" rel="stylesheet" />
+<div class="container">
+    <div class="row text-center" style="margin-top:20px; margin-bottom:20px;">
+        <div class="col-12">
+            <div style="border-radius: 4px; background-color: #3c5ae4; color: white; padding: 20px;">
+                <h2 style="text-align:center; font-family: Verdana, sans-serif; font-weight: bold;"><i class="fas fa-syringe"></i> DANH MỤC GÓI COMBO VACCINE <i class="fas fa-syringe"></i></h2>
+            </div>
+        </div>
+    </div>
+    @if (ViewBag.Message != null)
+    {
+        <p style="font-family: 'Times New Roman', serif; font-size: 35px; font-weight: bold; text-align: center; color:black;">@ViewBag.Message</p>
+    }
+    else
+    {
+        <div class="row ">
+            <div class="row product-group p-3 bg-light">
+                @foreach (var s in Model)
+                {
+                    <div class="col-4 p-3" style="margin-top:20px; margin-bottom:20px;">
+                        <a href="" style="text-decoration: none;">
+                            <div class="card-container text-center">
+                                <div class="card">
+                                    <div style="box-shadow: 5px 5px 5px 2px #999999; height: 180px; position: relative;">
+                                        <div class="card-body">
+                                            <h6 class="card-title text-center" style="margin-bottom: 10px;"><b>Combo: @s.ma_combo</b></h6>
+                                            <h6 class="card-title text-center" style="margin-bottom: 10px; color:#440404"><b>Số lượng: @s.soluong_vaccine</b></h6>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="/Home/XemChiTietCombo/@s.ma_combo" style="position: absolute; bottom: 5%;right:10%;"><button class="btn btn-primary mt-3" style="width:300px;"><img src="~/Images/vaccine_xemchitiet.png" width="30px" /><b>XEM CHI TIẾT</b></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                }
+            </div>
+
+        </div>
+    }
+</div>
