@@ -17,3 +17,14 @@
   + Quản lý giỏ hàng (Thêm, xóa, sửa)
   + Cài đặt thuật toán Apriori
   + Gửi thông báo tiêm qua gmail nhắc nhở tiêm
+
+  # Các framework được sử dụng
+  + ASP.NET Core 
+  + Razor
+  + Entity Framework
+  + Bootstrap
+  + jQuery
+
+  # Ngôn ngữ được sử dụng
+  + C#
+  + JavaScript
